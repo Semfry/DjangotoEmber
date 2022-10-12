@@ -1,0 +1,18 @@
+{% load static %}
+<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>    
+<link rel="stylesheet" type="text/css" href="{% static 'mypages/stylemp.css' %}">
+
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <br>
+        {% block navtop %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block form %}{% endblock %}
+        {% block navbot %}{% endblock %}
+        {% block endpage %}<p style='font-size:15;'>by shaun friend</p>{% endblock %}
+    </body>
+</html>

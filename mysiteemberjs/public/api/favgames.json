@@ -1,0 +1,68 @@
+{
+  "data": [
+    { 
+      "type": "favgames",
+      "id": "1",
+      "attributes": {
+        "gamename": "Baldur's Gate",
+        "startyear": "1998-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "2",
+      "attributes": {
+        "gamename": "Half Life",
+        "startyear": "1998-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "3",
+      "attributes": {
+        "gamename": "Dark Souls",
+        "startyear": "2011-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "4",
+      "attributes": {
+        "gamename": "Tomb Raider",
+        "startyear": "1996-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "5",
+      "attributes": {
+        "gamename": "Final Fantasy",
+        "startyear": "1987-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "6",
+      "attributes": {
+        "gamename": "Unreal",
+        "startyear": "1998-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "7",
+      "attributes": {
+        "gamename": "Deus Ex",
+        "startyear": "2000-01-01"
+      }
+    },
+    {
+      "type": "favgames",
+      "id": "8",
+      "attributes": {
+        "gamename": "Doom",
+        "startyear": "1994-01-01"
+      }
+    }
+  ]
+}

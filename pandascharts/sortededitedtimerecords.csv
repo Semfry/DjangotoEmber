@@ -1,0 +1,779 @@
+,Date,User,Minutes,Ticket,Code,Billable
+0,2022-07-01,chiverton-john,44.45,6217,dev,Is Billable
+1,2022-07-01,patrick.kimber,13.37,1907,admin,Non-Billable
+2,2022-07-01,patrick.kimber,1.42,343,review,Non-Billable
+3,2022-07-01,patrick.kimber,5.4,5829,sys-admin,Non-Billable
+4,2022-07-01,patrick.kimber,0.53,6107,sys-admin,Non-Billable
+5,2022-07-01,patrick.kimber,3.27,6245,sys-admin,Is Billable
+6,2022-07-01,patrick.kimber,3.58,6249,sys-admin,Is Billable
+7,2022-07-01,patrick.kimber,12.02,6248,email,Is Billable
+8,2022-07-01,chiverton-john,33.98,6217,dev,Is Billable
+9,2022-07-01,patrick.kimber,4.77,6249,sys-admin,Is Billable
+10,2022-07-01,patrick.kimber,20.95,6248,email,Is Billable
+11,2022-07-01,chiverton-john,1.28,6217,review,Is Billable
+12,2022-07-01,chiverton-john,50.73,6217,dev,Is Billable
+13,2022-07-01,patrick.kimber,3.08,1907,accounts,Non-Billable
+14,2022-07-01,patrick.kimber,119.6,6245,dev,Is Billable
+15,2022-07-01,chiverton-john,64.93,6217,dev,Is Billable
+16,2022-07-01,patrick.kimber,25.8,6245,sys-admin,Is Billable
+17,2022-07-01,patrick.kimber,60.47,6245,dev,Is Billable
+18,2022-07-01,chiverton-john,78.93,6217,dev,Is Billable
+19,2022-07-01,patrick.kimber,0.72,6245,email,Is Billable
+20,2022-07-01,patrick.kimber,12.5,6204,email,Non-Billable
+21,2022-07-01,patrick.kimber,0.75,6248,email,Is Billable
+22,2022-07-01,patrick.kimber,5.87,6248,sys-admin,Is Billable
+23,2022-07-01,patrick.kimber,14.32,6107,sys-admin,Is Billable
+24,2022-07-01,patrick.kimber,3.03,6246,email,Is Billable
+25,2022-07-01,patrick.kimber,7.33,343,review,Non-Billable
+26,2022-07-01,patrick.kimber,4.73,5090,email,Non-Billable
+27,2022-07-01,patrick.kimber,15.02,5090,dev,Non-Billable
+28,2022-07-01,patrick.kimber,26.3,6250,learn,Non-Billable
+29,2022-07-01,chiverton-john,248.95,6217,dev,Is Billable
+30,2022-07-01,patrick.kimber,8.43,5090,email,Non-Billable
+31,2022-07-01,patrick.kimber,0.27,6248,sys-admin,Non-Billable
+32,2022-07-02,chiverton-john,1.87,6230,review,Non-Billable
+33,2022-07-02,chiverton-john,2.68,6217,dev,Is Billable
+34,2022-07-02,patrick.kimber,44.7,394,sys-admin,Non-Billable
+35,2022-07-02,chiverton-john,134.53,6217,dev,Is Billable
+36,2022-07-02,patrick.kimber,4.1,6245,email,Is Billable
+37,2022-07-03,patrick.kimber,15.53,6217,dev,Non-Billable
+38,2022-07-03,patrick.kimber,79.9,124,learn,Non-Billable
+39,2022-07-03,patrick.kimber,1.98,6217,dev,Non-Billable
+40,2022-07-03,patrick.kimber,26.25,124,learn,Non-Billable
+41,2022-07-04,patrick.kimber,2.67,6217,talk,Non-Billable
+42,2022-07-04,patrick.kimber,1.88,343,review,Non-Billable
+43,2022-07-04,patrick.kimber,2.47,5523,talk,Non-Billable
+44,2022-07-04,patrick.kimber,1.98,6217,review,Non-Billable
+45,2022-07-04,patrick.kimber,4.82,5071,review,Non-Billable
+46,2022-07-04,patrick.kimber,2.85,6251,review,Non-Billable
+47,2022-07-04,patrick.kimber,1.37,6252,email,Non-Billable
+48,2022-07-04,patrick.kimber,11.77,6252,email,Non-Billable
+49,2022-07-04,patrick.kimber,12.65,3900,sys-admin,Non-Billable
+50,2022-07-04,patrick.kimber,29.12,6217,talk,Is Billable
+51,2022-07-04,chiverton-john,0.63,6217,review,Non-Billable
+52,2022-07-04,patrick.kimber,33.5,6252,sys-admin,Non-Billable
+53,2022-07-04,chiverton-john,0.92,6217,review,Is Billable
+54,2022-07-04,patrick.kimber,14.55,6252,email,Non-Billable
+55,2022-07-04,patrick.kimber,13.82,6237,email,Is Billable
+56,2022-07-04,chiverton-john,75.0,6217,review,Is Billable
+57,2022-07-04,patrick.kimber,2.18,3900,help,Non-Billable
+58,2022-07-04,patrick.kimber,1.22,6252,email,Non-Billable
+59,2022-07-04,patrick.kimber,3.6,3900,help,Non-Billable
+60,2022-07-04,patrick.kimber,17.88,6252,email,Non-Billable
+61,2022-07-04,malcolm.dinsmore,21.0,6224,empty,Is Billable
+62,2022-07-04,patrick.kimber,11.37,6252,sys-admin,Non-Billable
+63,2022-07-04,patrick.kimber,21.15,3900,talk,Non-Billable
+64,2022-07-04,patrick.kimber,11.97,6252,sys-admin,Non-Billable
+65,2022-07-04,patrick.kimber,16.12,3900,talk,Non-Billable
+66,2022-07-04,patrick.kimber,13.88,6252,sys-admin,Non-Billable
+67,2022-07-04,patrick.kimber,9.82,6252,talk,Non-Billable
+68,2022-07-04,patrick.kimber,19.78,6252,sys-admin,Non-Billable
+69,2022-07-04,patrick.kimber,26.55,6252,sys-admin,Non-Billable
+70,2022-07-04,patrick.kimber,18.65,6252,email,Non-Billable
+71,2022-07-04,chiverton-john,2.33,6217,review,Non-Billable
+72,2022-07-04,patrick.kimber,54.68,6245,dev,Is Billable
+73,2022-07-04,malcolm.dinsmore,85.0,6224,empty,Is Billable
+74,2022-07-04,patrick.kimber,15.58,1907,email,Non-Billable
+75,2022-07-04,patrick.kimber,106.77,1246,sys-admin,Non-Billable
+76,2022-07-04,malcolm.dinsmore,41.0,6224,empty,Is Billable
+77,2022-07-04,chiverton-john,0.95,6217,dev,Non-Billable
+78,2022-07-04,chiverton-john,61.83,6217,dev,Is Billable
+79,2022-07-05,patrick.kimber,9.37,6193,email,Is Billable
+80,2022-07-05,patrick.kimber,3.12,1907,accounts,Non-Billable
+81,2022-07-05,patrick.kimber,20.13,6193,review,Is Billable
+82,2022-07-05,chiverton-john,0.5,6217,review,Is Billable
+83,2022-07-05,chiverton-john,38.67,6217,dev,Is Billable
+84,2022-07-05,malcolm.dinsmore,67.0,6208,empty,Is Billable
+85,2022-07-05,patrick.kimber,9.18,343,review,Non-Billable
+86,2022-07-05,patrick.kimber,1.05,6252,email,Non-Billable
+87,2022-07-05,patrick.kimber,11.47,6253,email,Non-Billable
+88,2022-07-05,patrick.kimber,5.42,6205,email,Is Billable
+89,2022-07-05,patrick.kimber,10.87,6205,sys-admin,Is Billable
+90,2022-07-05,patrick.kimber,8.9,6205,sys-admin,Is Billable
+91,2022-07-05,patrick.kimber,23.02,6217,talk,Is Billable
+92,2022-07-05,chiverton-john,15.02,6217,review,Is Billable
+93,2022-07-05,patrick.kimber,21.55,343,talk,Non-Billable
+94,2022-07-05,patrick.kimber,2.47,6251,talk,Non-Billable
+95,2022-07-05,patrick.kimber,16.8,6237,talk,Is Billable
+96,2022-07-05,patrick.kimber,6.45,6251,email,Non-Billable
+97,2022-07-05,patrick.kimber,1.72,2626,sys-admin,Non-Billable
+98,2022-07-05,patrick.kimber,7.08,6237,talk,Is Billable
+99,2022-07-05,patrick.kimber,3.17,3733,sys-admin,Is Billable
+100,2022-07-05,patrick.kimber,34.15,6237,sys-admin,Is Billable
+101,2022-07-05,patrick.kimber,51.85,343,review,Non-Billable
+102,2022-07-05,patrick.kimber,0.68,6253,review,Non-Billable
+103,2022-07-05,patrick.kimber,0.93,6252,email,Non-Billable
+104,2022-07-05,patrick.kimber,16.4,6205,sys-admin,Is Billable
+105,2022-07-05,patrick.kimber,14.0,6243,email,Is Billable
+106,2022-07-05,patrick.kimber,6.47,6243,email,Is Billable
+107,2022-07-05,patrick.kimber,42.5,6205,sys-admin,Is Billable
+108,2022-07-05,patrick.kimber,14.18,6253,email,Non-Billable
+109,2022-07-05,patrick.kimber,11.8,6205,sys-admin,Is Billable
+110,2022-07-05,patrick.kimber,4.43,5523,review,Non-Billable
+111,2022-07-05,patrick.kimber,4.77,6205,sys-admin,Is Billable
+112,2022-07-05,patrick.kimber,9.13,5402,sys-admin,Is Billable
+113,2022-07-05,patrick.kimber,1.78,5706,review,Non-Billable
+114,2022-07-05,patrick.kimber,1.58,5768,accounts,Non-Billable
+115,2022-07-05,patrick.kimber,7.28,1907,accounts,Non-Billable
+116,2022-07-05,patrick.kimber,3.68,6239,sys-admin,Is Billable
+117,2022-07-05,patrick.kimber,6.55,6248,review,Non-Billable
+118,2022-07-05,patrick.kimber,7.67,6239,talk,Non-Billable
+119,2022-07-05,patrick.kimber,5.6,6205,sys-admin,Is Billable
+120,2022-07-05,patrick.kimber,3.0,124,sys-admin,Non-Billable
+121,2022-07-06,patrick.kimber,3.1,6217,review,Is Billable
+122,2022-07-06,patrick.kimber,8.52,6253,email,Non-Billable
+123,2022-07-06,patrick.kimber,28.12,6205,sys-admin,Is Billable
+124,2022-07-06,patrick.kimber,0.77,6252,review,Non-Billable
+125,2022-07-06,patrick.kimber,0.78,5090,review,Non-Billable
+126,2022-07-06,patrick.kimber,6.92,124,learn,Non-Billable
+127,2022-07-06,patrick.kimber,22.38,124,sys-admin,Non-Billable
+128,2022-07-06,patrick.kimber,12.55,6237,email,Is Billable
+129,2022-07-06,patrick.kimber,6.2,6243,email,Is Billable
+130,2022-07-06,patrick.kimber,75.07,6245,dev,Non-Billable
+131,2022-07-06,malcolm.dinsmore,66.0,6208,empty,Is Billable
+132,2022-07-06,patrick.kimber,4.03,6243,talk,Non-Billable
+133,2022-07-06,patrick.kimber,27.68,6245,sys-admin,Non-Billable
+134,2022-07-06,chiverton-john,46.35,6217,review,Non-Billable
+135,2022-07-06,patrick.kimber,1.7,5706,review,Non-Billable
+136,2022-07-06,patrick.kimber,7.52,6245,dev,Non-Billable
+137,2022-07-06,patrick.kimber,6.28,6243,email,Is Billable
+138,2022-07-06,patrick.kimber,45.82,6245,talk,Non-Billable
+139,2022-07-06,patrick.kimber,19.38,6205,talk,Is Billable
+140,2022-07-06,patrick.kimber,4.82,6245,dev,Is Billable
+141,2022-07-06,patrick.kimber,20.58,6205,sys-admin,Is Billable
+142,2022-07-06,patrick.kimber,1.03,6245,dev,Non-Billable
+143,2022-07-06,patrick.kimber,7.87,6115,sys-admin,Is Billable
+144,2022-07-06,patrick.kimber,13.9,6245,dev,Non-Billable
+145,2022-07-06,patrick.kimber,6.82,6205,sys-admin,Is Billable
+146,2022-07-06,patrick.kimber,29.18,6245,dev,Non-Billable
+147,2022-07-06,patrick.kimber,11.75,6245,dev,Is Billable
+148,2022-07-06,chiverton-john,0.35,6180,review,Non-Billable
+149,2022-07-07,patrick.kimber,63.5,6254,sys-admin,Is Billable
+150,2022-07-07,patrick.kimber,2.5,5550,sys-admin,Non-Billable
+151,2022-07-07,patrick.kimber,7.4,5822,accounts,Non-Billable
+152,2022-07-07,patrick.kimber,2.8,6251,review,Non-Billable
+153,2022-07-07,patrick.kimber,12.6,5948,review,Non-Billable
+154,2022-07-07,chiverton-john,34.0,6255,review,Is Billable
+155,2022-07-07,patrick.kimber,32.17,6254,sys-admin,Is Billable
+156,2022-07-07,patrick.kimber,4.77,6205,sys-admin,Is Billable
+157,2022-07-07,patrick.kimber,48.42,6125,talk,Is Billable
+158,2022-07-07,patrick.kimber,17.32,6205,sys-admin,Is Billable
+159,2022-07-07,patrick.kimber,12.88,343,review,Non-Billable
+160,2022-07-07,malcolm.dinsmore,52.0,6208,empty,Is Billable
+161,2022-07-08,patrick.kimber,104.9,6254,sys-admin,Is Billable
+162,2022-07-08,patrick.kimber,21.62,5061,email,Non-Billable
+163,2022-07-08,patrick.kimber,87.42,6254,sys-admin,Is Billable
+164,2022-07-08,patrick.kimber,26.62,124,learn,Non-Billable
+165,2022-07-08,patrick.kimber,10.82,3900,talk,Non-Billable
+166,2022-07-08,patrick.kimber,18.17,6254,email,Is Billable
+167,2022-07-08,patrick.kimber,18.88,3900,talk,Non-Billable
+168,2022-07-08,patrick.kimber,9.07,6237,sys-admin,Is Billable
+169,2022-07-08,patrick.kimber,31.13,3900,talk,Non-Billable
+170,2022-07-08,patrick.kimber,16.3,6237,sys-admin,Is Billable
+171,2022-07-08,chiverton-john,31.0,6180,travel,Is Billable
+172,2022-07-08,patrick.kimber,14.2,3900,sys-admin,Non-Billable
+173,2022-07-08,patrick.kimber,20.15,3900,talk,Non-Billable
+174,2022-07-08,chiverton-john,192.78,6180,review,Is Billable
+175,2022-07-08,patrick.kimber,22.92,124,learn,Non-Billable
+176,2022-07-08,malcolm.dinsmore,45.0,6208,empty,Is Billable
+177,2022-07-08,patrick.kimber,16.03,3900,talk,Non-Billable
+178,2022-07-08,patrick.kimber,7.33,3900,email,Non-Billable
+179,2022-07-08,patrick.kimber,10.03,4751,email,Non-Billable
+180,2022-07-08,patrick.kimber,4.0,6254,email,Is Billable
+181,2022-07-08,chiverton-john,30.0,6180,travel,Is Billable
+182,2022-07-10,patrick.kimber,48.73,6257,sys-admin,Is Billable
+183,2022-07-10,patrick.kimber,37.38,124,learn,Non-Billable
+184,2022-07-10,patrick.kimber,3.53,124,learn,Non-Billable
+185,2022-07-10,patrick.kimber,59.57,124,sys-admin,Non-Billable
+186,2022-07-10,patrick.kimber,5.05,6257,review,Non-Billable
+187,2022-07-11,patrick.kimber,31.58,3900,review,Non-Billable
+188,2022-07-11,chiverton-john,24.0,6180,travel,Is Billable
+189,2022-07-11,chiverton-john,184.0,6180,review,Is Billable
+190,2022-07-11,patrick.kimber,9.75,6256,email,Is Billable
+191,2022-07-11,patrick.kimber,27.28,6258,talk,Is Billable
+192,2022-07-11,patrick.kimber,12.7,4504,learn,Non-Billable
+193,2022-07-11,patrick.kimber,9.02,3900,review,Non-Billable
+194,2022-07-11,patrick.kimber,4.82,3455,email,Non-Billable
+195,2022-07-11,patrick.kimber,7.0,3455,email,Non-Billable
+196,2022-07-11,malcolm.dinsmore,29.0,6208,empty,Is Billable
+197,2022-07-11,patrick.kimber,2.78,4751,email,Non-Billable
+198,2022-07-11,patrick.kimber,3.82,124,learn,Non-Billable
+199,2022-07-11,patrick.kimber,38.93,3900,talk,Non-Billable
+200,2022-07-11,patrick.kimber,4.12,6249,email,Is Billable
+201,2022-07-11,patrick.kimber,12.78,3900,sys-admin,Non-Billable
+202,2022-07-11,patrick.kimber,2.17,4703,accounts,Non-Billable
+203,2022-07-11,patrick.kimber,8.25,3900,talk,Non-Billable
+204,2022-07-11,patrick.kimber,16.25,6249,sys-admin,Is Billable
+205,2022-07-11,patrick.kimber,2.95,5706,email,Is Billable
+206,2022-07-11,patrick.kimber,15.65,4751,email,Non-Billable
+207,2022-07-11,chiverton-john,24.0,6180,review,Is Billable
+208,2022-07-11,patrick.kimber,4.13,5523,email,Is Billable
+209,2022-07-11,patrick.kimber,12.3,6249,email,Is Billable
+210,2022-07-11,malcolm.dinsmore,21.0,3189,empty,Is Billable
+211,2022-07-11,malcolm.dinsmore,21.0,6260,empty,Is Billable
+212,2022-07-11,patrick.kimber,8.07,3900,talk,Non-Billable
+213,2022-07-11,patrick.kimber,24.58,2958,talk,Non-Billable
+214,2022-07-11,chiverton-john,24.0,6180,review,Non-Billable
+215,2022-07-11,malcolm.dinsmore,39.0,6260,empty,Is Billable
+216,2022-07-11,patrick.kimber,10.42,3900,talk,Non-Billable
+217,2022-07-11,patrick.kimber,7.85,6249,sys-admin,Is Billable
+218,2022-07-11,patrick.kimber,2.87,6205,talk,Is Billable
+219,2022-07-11,patrick.kimber,1.03,3900,talk,Non-Billable
+220,2022-07-11,patrick.kimber,10.35,6249,email,Is Billable
+221,2022-07-11,patrick.kimber,12.83,4751,email,Non-Billable
+222,2022-07-11,patrick.kimber,0.53,6259,sys-admin,Is Billable
+223,2022-07-11,patrick.kimber,1.88,2626,sys-admin,Non-Billable
+224,2022-07-11,patrick.kimber,31.78,2958,talk,Non-Billable
+225,2022-07-11,malcolm.dinsmore,21.0,6260,empty,Is Billable
+226,2022-07-11,patrick.kimber,10.12,6259,sys-admin,Is Billable
+227,2022-07-11,patrick.kimber,35.75,6259,talk,Is Billable
+228,2022-07-11,patrick.kimber,4.68,6261,sys-admin,Non-Billable
+229,2022-07-11,patrick.kimber,1.78,6258,review,Non-Billable
+230,2022-07-11,patrick.kimber,4.05,5402,sys-admin,Is Billable
+231,2022-07-11,patrick.kimber,2.48,6262,sys-admin,Is Billable
+232,2022-07-11,patrick.kimber,7.72,4751,email,Non-Billable
+233,2022-07-11,patrick.kimber,7.28,6262,sys-admin,Is Billable
+234,2022-07-11,patrick.kimber,5.77,5061,email,Non-Billable
+235,2022-07-11,patrick.kimber,47.22,6262,sys-admin,Is Billable
+236,2022-07-11,patrick.kimber,21.73,6262,sys-admin,Is Billable
+237,2022-07-11,malcolm.dinsmore,14.0,6260,empty,Is Billable
+238,2022-07-12,patrick.kimber,3.53,6186,dev,Non-Billable
+239,2022-07-12,patrick.kimber,1.8,3733,sys-admin,Is Billable
+240,2022-07-12,patrick.kimber,5.77,576,sys-admin,Is Billable
+241,2022-07-12,patrick.kimber,3.75,6262,sys-admin,Is Billable
+242,2022-07-12,patrick.kimber,6.77,576,sys-admin,Non-Billable
+243,2022-07-12,patrick.kimber,6.08,6263,sys-admin,Non-Billable
+244,2022-07-12,patrick.kimber,4.75,6263,email,Non-Billable
+245,2022-07-12,patrick.kimber,12.13,6186,sys-admin,Non-Billable
+246,2022-07-12,patrick.kimber,26.48,6263,sys-admin,Non-Billable
+247,2022-07-12,patrick.kimber,4.43,6263,sys-admin,Non-Billable
+248,2022-07-12,patrick.kimber,0.88,6151,sys-admin,Non-Billable
+249,2022-07-12,patrick.kimber,7.27,6078,sys-admin,Non-Billable
+250,2022-07-12,patrick.kimber,1.33,6263,sys-admin,Non-Billable
+251,2022-07-12,patrick.kimber,54.68,6263,sys-admin,Non-Billable
+252,2022-07-12,chiverton-john,63.3,6180,review,Is Billable
+253,2022-07-12,patrick.kimber,10.8,6263,dev,Non-Billable
+254,2022-07-12,patrick.kimber,5.37,6264,email,Is Billable
+255,2022-07-12,patrick.kimber,7.37,6264,sys-admin,Is Billable
+256,2022-07-12,patrick.kimber,2.65,6264,email,Is Billable
+257,2022-07-12,patrick.kimber,4.32,6263,email,Non-Billable
+258,2022-07-12,patrick.kimber,45.83,6256,review,Is Billable
+259,2022-07-12,patrick.kimber,27.97,6256,dev,Is Billable
+260,2022-07-12,patrick.kimber,66.37,3900,talk,Non-Billable
+261,2022-07-12,patrick.kimber,3.6,6256,talk,Is Billable
+262,2022-07-12,patrick.kimber,16.22,5523,email,Non-Billable
+263,2022-07-12,patrick.kimber,5.68,6264,email,Is Billable
+264,2022-07-12,patrick.kimber,12.32,4751,email,Non-Billable
+265,2022-07-12,patrick.kimber,5.05,6265,review,Non-Billable
+266,2022-07-12,patrick.kimber,19.78,6264,email,Is Billable
+267,2022-07-12,patrick.kimber,6.37,6266,email,Non-Billable
+268,2022-07-12,patrick.kimber,2.62,6266,dev,Non-Billable
+269,2022-07-12,patrick.kimber,9.58,6266,email,Non-Billable
+270,2022-07-12,patrick.kimber,28.32,6267,sys-admin,Non-Billable
+271,2022-07-12,patrick.kimber,1.27,6242,talk,Non-Billable
+272,2022-07-12,patrick.kimber,0.97,6266,email,Non-Billable
+273,2022-07-12,patrick.kimber,0.47,6264,email,Is Billable
+274,2022-07-12,patrick.kimber,2.6,6264,sys-admin,Is Billable
+275,2022-07-12,patrick.kimber,21.98,6256,sys-admin,Is Billable
+276,2022-07-12,patrick.kimber,4.38,6256,sys-admin,Is Billable
+277,2022-07-12,patrick.kimber,2.45,6264,review,Non-Billable
+278,2022-07-12,malcolm.dinsmore,54.0,6208,empty,Is Billable
+279,2022-07-13,patrick.kimber,4.88,6241,email,Is Billable
+280,2022-07-13,patrick.kimber,10.88,6241,sys-admin,Is Billable
+281,2022-07-13,patrick.kimber,6.07,6241,email,Is Billable
+282,2022-07-13,patrick.kimber,10.48,6241,sys-admin,Is Billable
+283,2022-07-13,patrick.kimber,19.65,6241,review,Is Billable
+284,2022-07-13,patrick.kimber,4.22,6241,email,Is Billable
+285,2022-07-13,patrick.kimber,2.13,6266,email,Non-Billable
+286,2022-07-13,malcolm.dinsmore,71.0,6208,empty,Is Billable
+287,2022-07-13,patrick.kimber,4.68,5061,review,Non-Billable
+288,2022-07-13,patrick.kimber,22.73,6241,email,Is Billable
+289,2022-07-13,patrick.kimber,3.25,6241,email,Is Billable
+290,2022-07-13,patrick.kimber,3.17,6241,sys-admin,Is Billable
+291,2022-07-13,patrick.kimber,3.65,6241,email,Is Billable
+292,2022-07-13,patrick.kimber,17.18,5706,review,Is Billable
+293,2022-07-13,patrick.kimber,13.05,6264,talk,Is Billable
+294,2022-07-13,patrick.kimber,5.0,6241,talk,Is Billable
+295,2022-07-13,patrick.kimber,6.6,3900,talk,Non-Billable
+296,2022-07-13,patrick.kimber,4.48,6268,email,Is Billable
+297,2022-07-13,patrick.kimber,3.0,6268,sys-admin,Is Billable
+298,2022-07-13,patrick.kimber,41.9,3900,talk,Non-Billable
+299,2022-07-13,patrick.kimber,1.18,6241,email,Non-Billable
+300,2022-07-13,patrick.kimber,11.93,6268,review,Is Billable
+301,2022-07-13,patrick.kimber,3.9,6268,email,Is Billable
+302,2022-07-13,patrick.kimber,7.67,5550,review,Non-Billable
+303,2022-07-13,patrick.kimber,3.03,3900,talk,Non-Billable
+304,2022-07-13,patrick.kimber,1.07,6263,email,Non-Billable
+305,2022-07-13,patrick.kimber,3.6,6251,review,Non-Billable
+306,2022-07-13,patrick.kimber,7.27,1907,accounts,Non-Billable
+307,2022-07-13,patrick.kimber,12.05,6241,dev,Non-Billable
+308,2022-07-13,malcolm.dinsmore,104.0,6208,empty,Is Billable
+309,2022-07-13,patrick.kimber,6.47,5754,review,Non-Billable
+310,2022-07-13,patrick.kimber,8.68,3900,talk,Non-Billable
+311,2022-07-13,patrick.kimber,3.37,6266,email,Non-Billable
+312,2022-07-13,patrick.kimber,4.55,343,review,Non-Billable
+313,2022-07-13,patrick.kimber,8.77,6252,sys-admin,Non-Billable
+314,2022-07-13,patrick.kimber,3.87,3900,talk,Non-Billable
+315,2022-07-13,patrick.kimber,0.43,6266,email,Non-Billable
+316,2022-07-13,patrick.kimber,4.22,4751,email,Non-Billable
+317,2022-07-13,patrick.kimber,22.42,6252,dev,Non-Billable
+318,2022-07-13,patrick.kimber,1.73,4751,email,Non-Billable
+319,2022-07-13,patrick.kimber,7.17,6268,email,Is Billable
+320,2022-07-13,patrick.kimber,3.25,5523,review,Non-Billable
+321,2022-07-13,patrick.kimber,2.67,5061,review,Non-Billable
+322,2022-07-13,patrick.kimber,5.7,6266,review,Non-Billable
+323,2022-07-13,patrick.kimber,0.57,6268,email,Is Billable
+324,2022-07-13,patrick.kimber,12.08,6268,review,Is Billable
+325,2022-07-13,patrick.kimber,2.47,6268,email,Is Billable
+326,2022-07-13,malcolm.dinsmore,64.0,6270,empty,Is Billable
+327,2022-07-13,patrick.kimber,9.07,343,review,Non-Billable
+328,2022-07-13,patrick.kimber,2.25,6269,email,Is Billable
+329,2022-07-13,patrick.kimber,0.32,6269,email,Is Billable
+330,2022-07-13,patrick.kimber,1.17,6182,email,Is Billable
+331,2022-07-13,patrick.kimber,8.33,6269,sys-admin,Is Billable
+332,2022-07-13,patrick.kimber,2.75,6269,email,Is Billable
+333,2022-07-13,patrick.kimber,2.18,3455,review,Non-Billable
+334,2022-07-13,patrick.kimber,1.57,3456,review,Non-Billable
+335,2022-07-13,patrick.kimber,1.07,3312,review,Non-Billable
+336,2022-07-13,patrick.kimber,0.82,3343,review,Non-Billable
+337,2022-07-13,patrick.kimber,1.83,4456,review,Non-Billable
+338,2022-07-13,patrick.kimber,0.47,3944,review,Non-Billable
+339,2022-07-13,patrick.kimber,0.55,4209,review,Non-Billable
+340,2022-07-13,patrick.kimber,0.3,4371,review,Non-Billable
+341,2022-07-13,patrick.kimber,5.22,4384,review,Non-Billable
+342,2022-07-13,patrick.kimber,0.4,4399,review,Non-Billable
+343,2022-07-13,patrick.kimber,3.97,4562,review,Non-Billable
+344,2022-07-13,patrick.kimber,1.32,4716,review,Non-Billable
+345,2022-07-13,patrick.kimber,0.43,4895,review,Non-Billable
+346,2022-07-13,patrick.kimber,3.97,4896,review,Non-Billable
+347,2022-07-13,malcolm.dinsmore,34.0,6270,empty,Is Billable
+348,2022-07-14,patrick.kimber,14.55,2555,review,Non-Billable
+349,2022-07-14,patrick.kimber,21.2,2117,learn,Non-Billable
+350,2022-07-14,patrick.kimber,3.63,3900,talk,Non-Billable
+351,2022-07-14,malcolm.dinsmore,107.0,6270,empty,Is Billable
+352,2022-07-14,patrick.kimber,17.97,6269,sys-admin,Is Billable
+353,2022-07-14,chiverton-john,5.8,6255,review,Is Billable
+354,2022-07-14,patrick.kimber,4.32,6269,email,Is Billable
+355,2022-07-14,chiverton-john,70.03,6255,review,Is Billable
+356,2022-07-14,patrick.kimber,1.4,6269,email,Is Billable
+357,2022-07-14,patrick.kimber,0.73,2651,sys-admin,Non-Billable
+358,2022-07-14,patrick.kimber,2.23,6252,sys-admin,Non-Billable
+359,2022-07-14,patrick.kimber,20.32,6262,sys-admin,Non-Billable
+360,2022-07-14,patrick.kimber,28.68,3900,talk,Non-Billable
+361,2022-07-14,patrick.kimber,5.07,2651,sys-admin,Is Billable
+362,2022-07-14,patrick.kimber,18.98,3900,talk,Non-Billable
+363,2022-07-14,patrick.kimber,5.27,6241,review,Is Billable
+364,2022-07-14,patrick.kimber,6.03,6107,sys-admin,Is Billable
+365,2022-07-14,malcolm.dinsmore,116.0,6270,empty,Is Billable
+366,2022-07-14,patrick.kimber,5.53,6248,review,Non-Billable
+367,2022-07-14,patrick.kimber,2.28,3455,review,Non-Billable
+368,2022-07-14,patrick.kimber,1.42,4925,review,Non-Billable
+369,2022-07-14,patrick.kimber,1.02,4901,review,Non-Billable
+370,2022-07-14,patrick.kimber,3.68,4977,review,Non-Billable
+371,2022-07-14,patrick.kimber,4.6,5014,review,Non-Billable
+372,2022-07-14,patrick.kimber,21.02,3900,talk,Non-Billable
+373,2022-07-14,chiverton-john,120.0,6242,review,Is Billable
+374,2022-07-14,patrick.kimber,1.28,3455,review,Non-Billable
+375,2022-07-14,patrick.kimber,0.38,5416,review,Non-Billable
+376,2022-07-14,patrick.kimber,1.4,6266,review,Non-Billable
+377,2022-07-14,patrick.kimber,3.82,5797,review,Non-Billable
+378,2022-07-14,patrick.kimber,0.33,5795,review,Non-Billable
+379,2022-07-14,patrick.kimber,2.62,5793,review,Non-Billable
+380,2022-07-14,patrick.kimber,1.6,5678,review,Non-Billable
+381,2022-07-14,patrick.kimber,4.13,5608,review,Non-Billable
+382,2022-07-14,patrick.kimber,0.42,5639,review,Non-Billable
+383,2022-07-14,patrick.kimber,2.73,5634,review,Non-Billable
+384,2022-07-14,patrick.kimber,3.48,5577,review,Non-Billable
+385,2022-07-14,patrick.kimber,1.58,5356,review,Non-Billable
+386,2022-07-14,patrick.kimber,0.75,5276,review,Non-Billable
+387,2022-07-14,patrick.kimber,1.85,5258,review,Non-Billable
+388,2022-07-14,patrick.kimber,1.28,5254,review,Non-Billable
+389,2022-07-14,patrick.kimber,1.15,5250,review,Non-Billable
+390,2022-07-14,patrick.kimber,1.95,5244,review,Non-Billable
+391,2022-07-14,patrick.kimber,0.55,5243,review,Non-Billable
+392,2022-07-14,patrick.kimber,5.3,5230,review,Non-Billable
+393,2022-07-14,patrick.kimber,0.35,5213,review,Non-Billable
+394,2022-07-14,patrick.kimber,0.82,5210,review,Non-Billable
+395,2022-07-14,patrick.kimber,0.32,5198,review,Non-Billable
+396,2022-07-14,patrick.kimber,1.85,5183,review,Non-Billable
+397,2022-07-14,patrick.kimber,0.77,5176,review,Non-Billable
+398,2022-07-14,patrick.kimber,1.57,5173,review,Non-Billable
+399,2022-07-14,patrick.kimber,0.32,5132,review,Non-Billable
+400,2022-07-14,patrick.kimber,0.85,5116,review,Non-Billable
+401,2022-07-14,patrick.kimber,0.72,5115,review,Non-Billable
+402,2022-07-14,patrick.kimber,11.08,3900,talk,Non-Billable
+403,2022-07-14,patrick.kimber,43.3,1560,talk,Non-Billable
+404,2022-07-14,patrick.kimber,8.85,6242,sys-admin,Non-Billable
+405,2022-07-14,patrick.kimber,0.17,5036,review,Non-Billable
+406,2022-07-14,patrick.kimber,3.88,5024,review,Non-Billable
+407,2022-07-14,patrick.kimber,0.45,4951,review,Non-Billable
+408,2022-07-14,patrick.kimber,2.55,4943,review,Non-Billable
+409,2022-07-14,patrick.kimber,0.63,4989,review,Non-Billable
+410,2022-07-14,patrick.kimber,0.7,5288,review,Non-Billable
+411,2022-07-14,patrick.kimber,0.18,5074,review,Non-Billable
+412,2022-07-14,patrick.kimber,0.48,5036,review,Non-Billable
+413,2022-07-14,patrick.kimber,0.53,4955,review,Non-Billable
+414,2022-07-14,patrick.kimber,1.93,4927,review,Non-Billable
+415,2022-07-14,malcolm.dinsmore,66.0,6270,empty,Is Billable
+416,2022-07-14,patrick.kimber,2.85,4926,review,Non-Billable
+417,2022-07-14,patrick.kimber,0.83,4925,review,Non-Billable
+418,2022-07-14,patrick.kimber,0.4,4685,review,Non-Billable
+419,2022-07-14,patrick.kimber,0.55,4645,review,Non-Billable
+420,2022-07-14,patrick.kimber,0.58,4616,review,Non-Billable
+421,2022-07-14,patrick.kimber,0.78,4562,review,Non-Billable
+422,2022-07-14,patrick.kimber,0.62,4474,review,Non-Billable
+423,2022-07-14,patrick.kimber,0.72,4456,review,Non-Billable
+424,2022-07-14,patrick.kimber,0.97,4259,review,Non-Billable
+425,2022-07-14,patrick.kimber,1.83,3921,review,Non-Billable
+426,2022-07-14,patrick.kimber,0.43,3456,review,Non-Billable
+427,2022-07-14,patrick.kimber,1.17,3420,review,Non-Billable
+428,2022-07-14,patrick.kimber,0.75,3051,review,Non-Billable
+429,2022-07-14,patrick.kimber,0.48,2448,review,Non-Billable
+430,2022-07-14,patrick.kimber,0.73,1770,review,Non-Billable
+431,2022-07-14,patrick.kimber,0.2,1669,review,Non-Billable
+432,2022-07-14,patrick.kimber,0.13,1666,review,Non-Billable
+433,2022-07-14,patrick.kimber,0.25,1652,review,Non-Billable
+434,2022-07-14,patrick.kimber,0.95,1469,review,Non-Billable
+435,2022-07-14,patrick.kimber,1.47,1467,review,Non-Billable
+436,2022-07-14,patrick.kimber,2.55,3455,email,Non-Billable
+437,2022-07-14,patrick.kimber,3.7,6269,email,Is Billable
+438,2022-07-14,patrick.kimber,7.35,6251,review,Non-Billable
+439,2022-07-14,patrick.kimber,51.25,6266,dev,Non-Billable
+440,2022-07-14,patrick.kimber,2.53,6241,email,Is Billable
+441,2022-07-14,patrick.kimber,4.92,6107,sys-admin,Is Billable
+442,2022-07-14,patrick.kimber,2.52,6241,sys-admin,Is Billable
+443,2022-07-14,patrick.kimber,3.35,3455,email,Non-Billable
+444,2022-07-14,patrick.kimber,5.55,6266,sys-admin,Non-Billable
+445,2022-07-14,patrick.kimber,0.37,3455,email,Non-Billable
+446,2022-07-14,patrick.kimber,9.75,6266,email,Non-Billable
+447,2022-07-14,malcolm.dinsmore,32.0,6208,empty,Is Billable
+448,2022-07-14,patrick.kimber,7.3,3455,email,Non-Billable
+449,2022-07-14,patrick.kimber,5.27,4901,review,Non-Billable
+450,2022-07-14,patrick.kimber,5.5,3455,email,Non-Billable
+451,2022-07-14,patrick.kimber,6.63,6266,sys-admin,Non-Billable
+452,2022-07-14,patrick.kimber,1.48,6241,email,Non-Billable
+453,2022-07-14,patrick.kimber,0.42,6246,review,Non-Billable
+454,2022-07-14,patrick.kimber,6.0,6257,review,Non-Billable
+455,2022-07-15,malcolm.dinsmore,122.0,6270,empty,Is Billable
+456,2022-07-15,patrick.kimber,2.57,5669,talk,Non-Billable
+457,2022-07-15,patrick.kimber,2.02,5550,sys-admin,Non-Billable
+458,2022-07-15,patrick.kimber,3.87,6262,sys-admin,Is Billable
+459,2022-07-15,patrick.kimber,13.42,6217,sys-admin,Non-Billable
+460,2022-07-15,patrick.kimber,7.28,3900,review,Non-Billable
+461,2022-07-15,patrick.kimber,1.12,343,review,Non-Billable
+462,2022-07-15,patrick.kimber,23.55,6245,sys-admin,Is Billable
+463,2022-07-15,patrick.kimber,4.33,6089,sys-admin,Is Billable
+464,2022-07-15,patrick.kimber,11.98,6245,dev,Is Billable
+465,2022-07-15,patrick.kimber,17.15,3900,talk,Non-Billable
+466,2022-07-15,patrick.kimber,12.73,6245,dev,Is Billable
+467,2022-07-15,patrick.kimber,22.35,3900,talk,Non-Billable
+468,2022-07-15,patrick.kimber,6.78,5061,email,Non-Billable
+469,2022-07-15,patrick.kimber,20.77,5523,talk,Non-Billable
+470,2022-07-15,malcolm.dinsmore,103.0,6270,empty,Is Billable
+471,2022-07-15,patrick.kimber,17.03,5523,talk,Non-Billable
+472,2022-07-15,chiverton-john,60.0,6230,review,Is Billable
+473,2022-07-15,patrick.kimber,8.92,3380,dev,Is Billable
+474,2022-07-15,patrick.kimber,9.02,6245,dev,Is Billable
+475,2022-07-15,patrick.kimber,13.72,3900,talk,Non-Billable
+476,2022-07-15,patrick.kimber,3.37,4751,email,Non-Billable
+477,2022-07-15,patrick.kimber,11.78,1040,review,Non-Billable
+478,2022-07-15,patrick.kimber,7.93,4751,email,Non-Billable
+479,2022-07-15,patrick.kimber,21.5,6245,dev,Is Billable
+480,2022-07-15,malcolm.dinsmore,68.0,6270,empty,Is Billable
+481,2022-07-15,patrick.kimber,34.17,3900,talk,Non-Billable
+482,2022-07-16,patrick.kimber,22.33,6271,sys-admin,Non-Billable
+483,2022-07-18,patrick.kimber,32.77,6242,sys-admin,Non-Billable
+484,2022-07-18,patrick.kimber,3.85,343,review,Non-Billable
+485,2022-07-18,patrick.kimber,6.03,6230,talk,Non-Billable
+486,2022-07-18,patrick.kimber,0.12,343,review,Non-Billable
+487,2022-07-18,patrick.kimber,2.13,3900,talk,Non-Billable
+488,2022-07-18,patrick.kimber,5.22,343,talk,Non-Billable
+489,2022-07-18,malcolm.dinsmore,106.0,5530,empty,Is Billable
+490,2022-07-18,patrick.kimber,74.28,6245,talk,Non-Billable
+491,2022-07-18,chiverton-john,58.63,6245,talk,Is Billable
+492,2022-07-18,patrick.kimber,25.1,1907,accounts,Non-Billable
+493,2022-07-18,patrick.kimber,6.23,5706,review,Is Billable
+494,2022-07-18,patrick.kimber,18.07,4751,sys-admin,Non-Billable
+495,2022-07-18,chiverton-john,0.02,6245,dev,Is Billable
+496,2022-07-18,patrick.kimber,6.18,5977,review,Non-Billable
+497,2022-07-18,patrick.kimber,4.73,4751,sys-admin,Non-Billable
+498,2022-07-18,patrick.kimber,7.35,6271,sys-admin,Non-Billable
+499,2022-07-18,patrick.kimber,6.33,6256,email,Is Billable
+500,2022-07-18,patrick.kimber,2.33,6256,email,Is Billable
+501,2022-07-18,patrick.kimber,2.5,6269,email,Is Billable
+502,2022-07-18,patrick.kimber,8.48,6269,email,Is Billable
+503,2022-07-18,patrick.kimber,1.92,6262,sys-admin,Non-Billable
+504,2022-07-18,patrick.kimber,18.6,5061,review,Non-Billable
+505,2022-07-18,malcolm.dinsmore,41.0,5530,empty,Is Billable
+506,2022-07-18,patrick.kimber,88.03,5061,talk,Non-Billable
+507,2022-07-18,malcolm.dinsmore,36.0,6208,empty,Is Billable
+508,2022-07-18,patrick.kimber,3.8,6269,email,Non-Billable
+509,2022-07-18,patrick.kimber,38.48,5061,talk,Non-Billable
+510,2022-07-18,patrick.kimber,17.28,6266,email,Non-Billable
+511,2022-07-18,patrick.kimber,1.38,6204,email,Non-Billable
+512,2022-07-18,patrick.kimber,21.57,6245,email,Is Billable
+513,2022-07-18,patrick.kimber,91.77,6245,dev,Non-Billable
+514,2022-07-18,malcolm.dinsmore,37.0,6270,empty,Is Billable
+515,2022-07-18,patrick.kimber,4.32,5774,accounts,Non-Billable
+516,2022-07-18,patrick.kimber,0.5,2626,sys-admin,Non-Billable
+517,2022-07-18,patrick.kimber,19.92,5774,accounts,Non-Billable
+518,2022-07-18,patrick.kimber,2.87,1907,accounts,Non-Billable
+519,2022-07-18,patrick.kimber,8.88,6143,sys-admin,Is Billable
+520,2022-07-18,patrick.kimber,10.92,2471,sys-admin,Non-Billable
+521,2022-07-18,patrick.kimber,20.52,6143,sys-admin,Is Billable
+522,2022-07-18,malcolm.dinsmore,26.0,6208,empty,Is Billable
+523,2022-07-18,patrick.kimber,4.17,669,sys-admin,Non-Billable
+524,2022-07-18,patrick.kimber,8.45,669,sys-admin,Is Billable
+525,2022-07-18,patrick.kimber,8.13,669,sys-admin,Non-Billable
+526,2022-07-18,patrick.kimber,5.67,6176,review,Non-Billable
+527,2022-07-18,patrick.kimber,2.17,669,sys-admin,Non-Billable
+528,2022-07-19,patrick.kimber,0.22,6272,talk,Non-Billable
+529,2022-07-19,patrick.kimber,15.0,6273,talk,Is Billable
+530,2022-07-19,patrick.kimber,15.0,5669,talk,Non-Billable
+531,2022-07-19,malcolm.dinsmore,159.0,6208,empty,Is Billable
+532,2022-07-19,patrick.kimber,0.4,1907,talk,Non-Billable
+533,2022-07-19,patrick.kimber,3.17,6273,talk,Non-Billable
+534,2022-07-19,chiverton-john,41.93,6255,review,Is Billable
+535,2022-07-19,patrick.kimber,8.05,1907,accounts,Non-Billable
+536,2022-07-19,patrick.kimber,5.82,6273,sys-admin,Non-Billable
+537,2022-07-19,patrick.kimber,4.75,3455,email,Non-Billable
+538,2022-07-19,patrick.kimber,12.25,6193,email,Non-Billable
+539,2022-07-19,patrick.kimber,4.37,1907,accounts,Non-Billable
+540,2022-07-19,patrick.kimber,0.23,6115,accounts,Non-Billable
+541,2022-07-19,patrick.kimber,4.92,6098,accounts,Non-Billable
+542,2022-07-19,patrick.kimber,5.23,1907,accounts,Non-Billable
+543,2022-07-19,patrick.kimber,8.87,6245,help,Non-Billable
+544,2022-07-19,chiverton-john,55.85,6245,dev,Is Billable
+545,2022-07-19,malcolm.dinsmore,93.0,6274,empty,Is Billable
+546,2022-07-19,malcolm.dinsmore,133.0,6274,empty,Is Billable
+547,2022-07-19,malcolm.dinsmore,44.0,6274,empty,Is Billable
+548,2022-07-19,malcolm.dinsmore,42.0,5530,empty,Is Billable
+549,2022-07-19,chiverton-john,30.97,6255,review,Is Billable
+550,2022-07-19,malcolm.dinsmore,49.0,6274,empty,Is Billable
+551,2022-07-20,malcolm.dinsmore,81.0,5530,empty,Is Billable
+552,2022-07-20,patrick.kimber,2.02,6204,email,Non-Billable
+553,2022-07-20,patrick.kimber,2.7,1907,accounts,Non-Billable
+554,2022-07-20,patrick.kimber,6.62,6262,accounts,Non-Billable
+555,2022-07-20,patrick.kimber,11.72,6230,accounts,Non-Billable
+556,2022-07-20,patrick.kimber,6.35,1907,accounts,Non-Billable
+557,2022-07-20,patrick.kimber,0.78,6230,review,Non-Billable
+558,2022-07-20,chiverton-john,5.7,6255,review,Is Billable
+559,2022-07-20,patrick.kimber,1.77,6275,review,Non-Billable
+560,2022-07-20,patrick.kimber,1.97,6180,accounts,Non-Billable
+561,2022-07-20,patrick.kimber,17.52,1907,accounts,Non-Billable
+562,2022-07-20,patrick.kimber,0.13,6276,review,Non-Billable
+563,2022-07-20,patrick.kimber,7.57,6123,talk,Non-Billable
+564,2022-07-20,patrick.kimber,5.78,5669,accounts,Non-Billable
+565,2022-07-20,chiverton-john,13.2,6278,review,Is Billable
+566,2022-07-20,chiverton-john,0.02,6277,review,Non-Billable
+567,2022-07-20,patrick.kimber,6.07,6204,talk,Non-Billable
+568,2022-07-20,patrick.kimber,40.58,6204,review,Non-Billable
+569,2022-07-20,chiverton-john,63.03,6245,dev,Is Billable
+570,2022-07-20,malcolm.dinsmore,39.0,5530,empty,Is Billable
+571,2022-07-20,patrick.kimber,17.45,5669,accounts,Non-Billable
+572,2022-07-20,patrick.kimber,11.55,1907,accounts,Non-Billable
+573,2022-07-20,chiverton-john,31.9,6279,review,Is Billable
+574,2022-07-20,patrick.kimber,15.65,5706,review,Is Billable
+575,2022-07-20,patrick.kimber,8.67,6243,email,Non-Billable
+576,2022-07-20,patrick.kimber,2.67,5149,sys-admin,Non-Billable
+577,2022-07-20,chiverton-john,43.25,6245,dev,Is Billable
+578,2022-07-20,patrick.kimber,18.4,5149,sys-admin,Non-Billable
+579,2022-07-20,malcolm.dinsmore,78.0,5530,empty,Is Billable
+580,2022-07-20,patrick.kimber,16.88,6186,sys-admin,Non-Billable
+581,2022-07-20,patrick.kimber,4.18,5669,accounts,Non-Billable
+582,2022-07-20,patrick.kimber,1.83,1907,accounts,Non-Billable
+583,2022-07-20,patrick.kimber,14.23,5149,sys-admin,Non-Billable
+584,2022-07-20,patrick.kimber,21.63,6266,sys-admin,Non-Billable
+585,2022-07-20,patrick.kimber,3.05,6243,email,Non-Billable
+586,2022-07-20,patrick.kimber,2.05,6241,email,Is Billable
+587,2022-07-20,malcolm.dinsmore,22.0,6241,empty,Is Billable
+588,2022-07-20,patrick.kimber,2.52,6243,email,Non-Billable
+589,2022-07-20,patrick.kimber,25.48,6245,talk,Non-Billable
+590,2022-07-20,chiverton-john,14.12,6245,review,Is Billable
+591,2022-07-20,patrick.kimber,1.32,6241,email,Non-Billable
+592,2022-07-20,patrick.kimber,6.35,5149,review,Non-Billable
+593,2022-07-20,malcolm.dinsmore,82.0,5530,empty,Is Billable
+594,2022-07-20,patrick.kimber,5.08,6204,email,Non-Billable
+595,2022-07-20,patrick.kimber,9.88,5149,sys-admin,Non-Billable
+596,2022-07-20,patrick.kimber,3.88,6241,email,Non-Billable
+597,2022-07-20,patrick.kimber,7.83,6119,sys-admin,Non-Billable
+598,2022-07-20,patrick.kimber,5.62,6243,talk,Non-Billable
+599,2022-07-20,malcolm.dinsmore,41.0,5530,empty,Is Billable
+600,2022-07-20,malcolm.dinsmore,91.0,5530,empty,Is Billable
+601,2022-07-20,malcolm.dinsmore,64.0,5530,empty,Is Billable
+602,2022-07-21,malcolm.dinsmore,109.0,5530,empty,Is Billable
+603,2022-07-21,patrick.kimber,7.8,1907,accounts,Non-Billable
+604,2022-07-21,patrick.kimber,1.85,6266,email,Non-Billable
+605,2022-07-21,patrick.kimber,9.07,6204,review,Non-Billable
+606,2022-07-21,patrick.kimber,2.53,3455,review,Non-Billable
+607,2022-07-21,patrick.kimber,4.72,4209,review,Non-Billable
+608,2022-07-21,patrick.kimber,2.8,3456,review,Non-Billable
+609,2022-07-21,patrick.kimber,2.35,3312,review,Non-Billable
+610,2022-07-21,patrick.kimber,0.42,3312,review,Non-Billable
+611,2022-07-21,patrick.kimber,1.23,6040,review,Non-Billable
+612,2022-07-21,patrick.kimber,3.67,4456,review,Non-Billable
+613,2022-07-21,patrick.kimber,4.0,3900,talk,Non-Billable
+614,2022-07-21,patrick.kimber,3.17,4456,review,Non-Billable
+615,2022-07-21,patrick.kimber,9.12,3900,talk,Non-Billable
+616,2022-07-21,patrick.kimber,2.88,4456,review,Non-Billable
+617,2022-07-21,patrick.kimber,3.45,4268,review,Non-Billable
+618,2022-07-21,patrick.kimber,8.15,4562,review,Non-Billable
+619,2022-07-21,patrick.kimber,3.97,5014,review,Non-Billable
+620,2022-07-21,patrick.kimber,1.02,6280,review,Non-Billable
+621,2022-07-21,patrick.kimber,23.03,3900,talk,Non-Billable
+622,2022-07-21,patrick.kimber,1.13,6280,review,Non-Billable
+623,2022-07-21,patrick.kimber,0.65,5416,review,Non-Billable
+624,2022-07-21,patrick.kimber,4.47,4925,review,Non-Billable
+625,2022-07-21,patrick.kimber,12.73,3455,review,Non-Billable
+626,2022-07-21,patrick.kimber,1.23,3455,email,Non-Billable
+627,2022-07-21,patrick.kimber,17.3,3900,review,Non-Billable
+628,2022-07-21,patrick.kimber,12.18,3455,email,Non-Billable
+629,2022-07-21,patrick.kimber,13.43,1907,accounts,Non-Billable
+630,2022-07-21,patrick.kimber,5.7,6217,accounts,Non-Billable
+631,2022-07-21,chiverton-john,150.0,6245,dev,Is Billable
+632,2022-07-21,patrick.kimber,148.65,6245,sys-admin,Non-Billable
+633,2022-07-21,malcolm.dinsmore,112.0,5530,empty,Is Billable
+634,2022-07-21,patrick.kimber,20.47,6281,talk,Non-Billable
+635,2022-07-21,patrick.kimber,3.6,5669,review,Non-Billable
+636,2022-07-21,chiverton-john,0.02,6278,review,Non-Billable
+637,2022-07-21,patrick.kimber,28.2,6278,talk,Is Billable
+638,2022-07-21,malcolm.dinsmore,97.0,5530,empty,Is Billable
+639,2022-07-21,patrick.kimber,6.87,6247,email,Is Billable
+640,2022-07-21,patrick.kimber,1.23,5669,accounts,Non-Billable
+641,2022-07-21,patrick.kimber,1.0,6182,email,Is Billable
+642,2022-07-21,patrick.kimber,2.0,5069,review,Non-Billable
+643,2022-07-21,patrick.kimber,0.6,3733,sys-admin,Non-Billable
+644,2022-07-21,patrick.kimber,3.13,5550,sys-admin,Non-Billable
+645,2022-07-21,patrick.kimber,5.32,6278,talk,Is Billable
+646,2022-07-21,patrick.kimber,1.95,6220,review,Non-Billable
+647,2022-07-21,patrick.kimber,3.47,6200,review,Non-Billable
+648,2022-07-21,patrick.kimber,2.52,6247,review,Non-Billable
+649,2022-07-21,patrick.kimber,7.62,6240,review,Non-Billable
+650,2022-07-21,patrick.kimber,7.3,6240,email,Non-Billable
+651,2022-07-21,patrick.kimber,0.72,6240,talk,Non-Billable
+652,2022-07-21,patrick.kimber,8.43,4751,email,Non-Billable
+653,2022-07-21,patrick.kimber,8.17,6240,email,Non-Billable
+654,2022-07-21,patrick.kimber,9.92,6251,review,Non-Billable
+655,2022-07-21,patrick.kimber,13.0,6182,dev,Is Billable
+656,2022-07-21,malcolm.dinsmore,109.0,5530,empty,Is Billable
+657,2022-07-21,patrick.kimber,2.7,6182,email,Is Billable
+658,2022-07-21,patrick.kimber,2.45,6206,review,Non-Billable
+659,2022-07-21,patrick.kimber,15.08,6282,review,Is Billable
+660,2022-07-21,patrick.kimber,8.77,3733,sys-admin,Is Billable
+661,2022-07-21,malcolm.dinsmore,131.0,5530,empty,Is Billable
+662,2022-07-22,malcolm.dinsmore,63.0,5530,empty,Is Billable
+663,2022-07-22,patrick.kimber,23.97,6240,talk,Non-Billable
+664,2022-07-22,patrick.kimber,14.67,6205,email,Is Billable
+665,2022-07-22,patrick.kimber,30.17,6240,talk,Non-Billable
+666,2022-07-22,patrick.kimber,4.2,6243,talk,Non-Billable
+667,2022-07-22,patrick.kimber,3.4,6204,talk,Non-Billable
+668,2022-07-22,patrick.kimber,1.72,5061,talk,Non-Billable
+669,2022-07-22,patrick.kimber,2.32,6065,talk,Non-Billable
+670,2022-07-22,patrick.kimber,4.62,5530,talk,Non-Billable
+671,2022-07-22,chiverton-john,25.0,6278,travel,Is Billable
+672,2022-07-22,chiverton-john,61.0,6278,review,Is Billable
+673,2022-07-22,patrick.kimber,3.05,1907,accounts,Non-Billable
+674,2022-07-22,patrick.kimber,0.28,6283,review,Non-Billable
+675,2022-07-22,patrick.kimber,2.15,4751,email,Non-Billable
+676,2022-07-22,patrick.kimber,7.4,6205,email,Is Billable
+677,2022-07-22,patrick.kimber,1.83,6243,email,Non-Billable
+678,2022-07-22,patrick.kimber,6.3,5530,review,Non-Billable
+679,2022-07-22,patrick.kimber,16.53,6205,sys-admin,Is Billable
+680,2022-07-22,chiverton-john,28.0,6278,travel,Is Billable
+681,2022-07-22,malcolm.dinsmore,52.0,6208,empty,Is Billable
+682,2022-07-22,patrick.kimber,0.77,6204,talk,Non-Billable
+683,2022-07-22,patrick.kimber,124.35,6204,talk,Non-Billable
+684,2022-07-22,patrick.kimber,3.0,6254,sys-admin,Is Billable
+685,2022-07-22,patrick.kimber,12.78,6284,review,Non-Billable
+686,2022-07-22,patrick.kimber,72.5,6205,talk,Non-Billable
+687,2022-07-22,patrick.kimber,7.63,6241,talk,Non-Billable
+688,2022-07-22,patrick.kimber,5.02,6205,review,Non-Billable
+689,2022-07-24,patrick.kimber,22.92,6089,sys-admin,Is Billable
+690,2022-07-25,patrick.kimber,60.0,5669,sys-admin,Non-Billable
+691,2022-07-25,malcolm.dinsmore,11.0,6285,empty,Is Billable
+692,2022-07-25,malcolm.dinsmore,15.0,6274,empty,Is Billable
+693,2022-07-25,patrick.kimber,2.98,5402,sys-admin,Is Billable
+694,2022-07-25,patrick.kimber,6.95,6251,review,Non-Billable
+695,2022-07-25,patrick.kimber,0.65,6251,email,Non-Billable
+696,2022-07-25,patrick.kimber,0.85,6182,review,Non-Billable
+697,2022-07-25,patrick.kimber,0.6,2626,sys-admin,Non-Billable
+698,2022-07-25,patrick.kimber,5.35,5523,talk,Non-Billable
+699,2022-07-25,patrick.kimber,7.83,6256,email,Non-Billable
+700,2022-07-25,malcolm.dinsmore,11.0,1018,empty,Is Billable
+701,2022-07-25,patrick.kimber,10.07,1560,review,Non-Billable
+702,2022-07-25,malcolm.dinsmore,58.0,6270,empty,Is Billable
+703,2022-07-25,patrick.kimber,10.73,6286,sys-admin,Is Billable
+704,2022-07-25,patrick.kimber,9.35,6281,talk,Non-Billable
+705,2022-07-25,chiverton-john,33.32,6193,dev,Is Billable
+706,2022-07-25,patrick.kimber,6.5,6205,sys-admin,Is Billable
+707,2022-07-25,patrick.kimber,8.15,6281,talk,Non-Billable
+708,2022-07-25,malcolm.dinsmore,26.0,6270,empty,Is Billable
+709,2022-07-25,patrick.kimber,9.02,6205,sys-admin,Is Billable
+710,2022-07-25,patrick.kimber,8.4,1560,review,Non-Billable
+711,2022-07-25,patrick.kimber,19.85,6205,sys-admin,Is Billable
+712,2022-07-25,chiverton-john,108.28,6281,dev,Is Billable
+713,2022-07-25,patrick.kimber,2.75,4751,sys-admin,Non-Billable
+714,2022-07-25,patrick.kimber,1.48,5069,review,Non-Billable
+715,2022-07-25,patrick.kimber,3.48,3733,sys-admin,Is Billable
+716,2022-07-25,patrick.kimber,34.38,6286,email,Non-Billable
+717,2022-07-25,malcolm.dinsmore,83.0,6270,empty,Is Billable
+718,2022-07-25,patrick.kimber,4.5,5706,review,Is Billable
+719,2022-07-25,patrick.kimber,14.08,6284,review,Non-Billable
+720,2022-07-25,patrick.kimber,10.45,6283,review,Non-Billable
+721,2022-07-25,patrick.kimber,2.83,6156,review,Non-Billable
+722,2022-07-25,patrick.kimber,5.23,6283,review,Non-Billable
+723,2022-07-25,patrick.kimber,1.85,5669,accounts,Non-Billable
+724,2022-07-25,patrick.kimber,26.5,4751,sys-admin,Non-Billable
+725,2022-07-25,patrick.kimber,30.7,3900,talk,Non-Billable
+726,2022-07-25,patrick.kimber,36.35,4751,dev,Non-Billable
+727,2022-07-25,patrick.kimber,7.88,6240,email,Non-Billable
+728,2022-07-25,patrick.kimber,25.57,6266,review,Non-Billable
+729,2022-07-25,malcolm.dinsmore,67.0,6270,empty,Is Billable
+730,2022-07-25,patrick.kimber,15.93,6205,email,Is Billable
+731,2022-07-25,patrick.kimber,3.97,1907,accounts,Non-Billable
+732,2022-07-26,malcolm.dinsmore,56.0,6270,empty,Is Billable
+733,2022-07-26,malcolm.dinsmore,76.0,6270,empty,Is Billable
+734,2022-07-26,chiverton-john,30.77,6278,review,Is Billable
+735,2022-07-26,malcolm.dinsmore,77.0,6270,empty,Is Billable
+736,2022-07-26,malcolm.dinsmore,71.0,6270,empty,Is Billable
+737,2022-07-27,patrick.kimber,3.1,1907,accounts,Non-Billable
+738,2022-07-27,patrick.kimber,4.78,6288,email,Non-Billable
+739,2022-07-27,patrick.kimber,8.28,4751,email,Non-Billable
+740,2022-07-27,chiverton-john,77.17,6281,review,Is Billable
+741,2022-07-27,patrick.kimber,11.45,6281,talk,Non-Billable
+742,2022-07-27,patrick.kimber,41.32,1560,talk,Non-Billable
+743,2022-07-27,malcolm.dinsmore,70.0,6270,empty,Is Billable
+744,2022-07-27,patrick.kimber,14.93,6205,email,Is Billable
+745,2022-07-27,patrick.kimber,3.62,5523,review,Is Billable
+746,2022-07-27,patrick.kimber,3.87,6289,talk,Is Billable
+747,2022-07-27,patrick.kimber,17.48,6289,sys-admin,Is Billable
+748,2022-07-27,patrick.kimber,11.05,6107,sys-admin,Is Billable
+749,2022-07-27,patrick.kimber,6.23,3380,dev,Is Billable
+750,2022-07-27,chiverton-john,44.37,6193,dev,Is Billable
+751,2022-07-27,patrick.kimber,38.75,6289,sys-admin,Is Billable
+752,2022-07-27,patrick.kimber,5.9,3380,dev,Is Billable
+753,2022-07-27,chiverton-john,58.78,6193,dev,Is Billable
+754,2022-07-27,malcolm.dinsmore,127.0,6270,empty,Is Billable
+755,2022-07-27,patrick.kimber,43.58,3380,dev,Is Billable
+756,2022-07-27,patrick.kimber,30.37,6205,talk,Is Billable
+757,2022-07-27,chiverton-john,20.73,6193,dev,Is Billable
+758,2022-07-27,patrick.kimber,16.28,3380,dev,Is Billable
+759,2022-07-27,patrick.kimber,4.2,6235,review,Is Billable
+760,2022-07-28,patrick.kimber,4.5,6290,email,Is Billable
+761,2022-07-28,patrick.kimber,18.38,6290,review,Is Billable
+762,2022-07-28,patrick.kimber,199.6,6290,dev,Is Billable
+763,2022-07-28,malcolm.dinsmore,140.0,6270,empty,Is Billable
+764,2022-07-28,patrick.kimber,11.65,6205,sys-admin,Is Billable
+765,2022-07-28,patrick.kimber,36.8,6204,dev,Non-Billable
+766,2022-07-28,malcolm.dinsmore,18.0,5530,empty,Is Billable
+767,2022-07-28,malcolm.dinsmore,64.0,6270,empty,Is Billable
+768,2022-07-28,malcolm.dinsmore,131.0,6270,empty,Is Billable
+769,2022-07-28,malcolm.dinsmore,85.0,6270,empty,Is Billable
+770,2022-07-28,chiverton-john,8.9,6193,dev,Is Billable
+771,2022-07-28,malcolm.dinsmore,75.0,6270,empty,Is Billable
+772,2022-07-28,chiverton-john,29.12,6193,dev,Is Billable
+773,2022-07-29,chiverton-john,113.97,6193,dev,Is Billable
+774,2022-07-29,malcolm.dinsmore,92.0,6270,empty,Is Billable
+775,2022-07-29,chiverton-john,32.97,6193,dev,Is Billable
+776,2022-07-29,malcolm.dinsmore,49.0,5530,empty,Is Billable
+777,2022-07-29,malcolm.dinsmore,86.0,5530,empty,Is Billable

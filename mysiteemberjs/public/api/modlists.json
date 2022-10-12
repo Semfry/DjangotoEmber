@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "type": "modlists",
+      "id": "1",
+      "attributes": {
+        "modname": "Deja Vu: Gryphon Revisited",
+        "releaseyear": "2003-01-01",
+        "game": "Unreal",
+        "imagelink": "https://imgur.com/t1ZTXBn.jpg",
+        "link": "https://unrealarchives.com/deja-vu-gryphon-revisited/"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "2",
+      "attributes": {
+        "modname": "One Room Challenge - Folly of the Watchers",
+        "releaseyear": "2011-01-01",
+        "game": "Tomb Raider",
+        "imagelink": "https://imgur.com/54bn8TZ.jpg",
+        "link": "https://www.trle.net/sc/levelfeatures.php?lid=2404"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "3",
+      "attributes": {
+        "modname": "One Room Challenge - The Veiled Monastery",
+        "releaseyear": "2012-01-01",
+        "game": "Tomb Raider",
+        "imagelink": "https://imgur.com/X7RDS9N.jpg",
+        "link": "https://www.trle.net/sc/levelfeatures.php?lid=2506"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "4",
+      "attributes": {
+        "modname": "Back to Basics 2014 - Quest for the Soma",
+        "releaseyear": "2014-01-01",
+        "game": "Tomb Raider",
+        "imagelink": "https://imgur.com/wfBoQOf.jpg",
+        "link": "https://www.trle.net/sc/levelfeatures.php?lid=2764"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "5",
+      "attributes": {
+        "modname": "BtB2015 - Beyond the Labyrinth",
+        "releaseyear": "2015-01-01",
+        "game": "Tomb Raider",
+        "imagelink": "https://imgur.com/YxT52RH.jpg",
+        "link": "https://www.trle.net/sc/levelfeatures.php?lid=2859"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "6",
+      "attributes": {
+        "modname": "The Descent",
+        "releaseyear": "2022-01-01",
+        "game": "Unreal",
+        "imagelink": "https://imgur.com/YkilBss.jpg",
+        "link": "https://www.moddb.com/mods/the-descent-an-unreal-singleplayer-collaborative-adventure/downloads/usp-thedescent-v1-0"
+      }
+    },
+    {
+      "type": "modlists",
+      "id": "7",
+      "attributes": {
+        "modname": "Chronicles of Weedrow 1 and 2",
+        "releaseyear": "2011-01-01",
+        "game": "Unreal",
+        "imagelink": "https://imgur.com/JBy7ywv.jpg",
+        "link": "https://www.moddb.com/mods/chronicles-of-weedrow"
+      }
+    }
+  ]
+}
