@@ -19,3 +19,4 @@ shapely
 contextily
 mapclassify
 black[jupyter]
+djangorestframework-jsonapi

@@ -1,4 +1,4 @@
-"""mysite URL Configuration
+"""mysitedjango URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
-    path("mypages/", include("mypages.urls")),
+    path('', include('mypages.urls')),
+    path('api-auth/', include('rest_framework.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

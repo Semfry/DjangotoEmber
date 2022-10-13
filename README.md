@@ -16,6 +16,13 @@ pipwin install fiona
 
 pip install -r requirements.txt
 
+pip install djangorestframework-jsonapi
+pip install djangorestframework-jsonapi['django-filter']
+pip install djangorestframework-jsonapi['django-polymorphic']
+pip install djangorestframework-jsonapi['openapi']
+
+ember s --proxy <http://127.0.0.1:8000/>
+
 git commit -m "push message"
 
 git push
