@@ -12,8 +12,8 @@ class favegames(models.Model):
     gamename = models.CharField("name of game/series", max_length=100, blank=True, default="")
     startyear = models.DateField("release year/start of series (format DD/MM/YY)")
     
-    def __str__(self):
-        return self.gamename
+    class Meta:
+	    ordering = ('id',)
     
 class modslist(models.Model):
     modname = models.CharField("name of mod", max_length=100, blank=True, default="")
@@ -22,5 +22,5 @@ class modslist(models.Model):
     link = models.URLField(max_length=200, default="admin/mypages/mods/")
     image = models.ImageField(upload_to="static/images")
     
-    def __str__(self):
-        return self.modname
+    class Meta:
+	    ordering = ('id',)
