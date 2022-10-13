@@ -1,0 +1,26 @@
+<nav class="fixed bg-gradient-to-r from-blue-500 to-blue-400 px-2 py-2 rounded-b-3xl">
+  <div>
+    <ul class="flex flex-row">
+      <li class="mr-6">
+        <LinkTo @route="index" class="menu-index">
+          <h1 class="text-green-500 hover:text-green-700 text-3xl ml-5 font-bold">Main Page</h1>
+        </LinkTo>
+      </li>
+      <li class="mr-6">
+        <LinkTo @route="favgames" class="menu-favgames">
+          <h1 class="text-green-500 hover:text-green-700 text-3xl ml-3 font-bold">Favourite Games</h1>
+        </LinkTo>
+        </li>
+        <li class="mr-6">
+        <LinkTo @route="modslists" class="menu-modslists">
+          <h1 class="text-green-500 hover:text-green-700 text-3xl ml-3 font-bold">My Mods</h1>
+        </LinkTo>
+        </li>
+        <li class="mr-6">
+        <LinkTo @route="graphs" class="menu-graphs">
+          <h1 class="text-green-500 hover:text-green-700 text-3xl ml-3 font-bold">Graphs</h1>
+        </LinkTo>
+        </li>
+    </ul>
+  </div>
+</nav>

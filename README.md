@@ -6,6 +6,12 @@ python3 -m venv env
 
 source env/bin/activate
 
+## Jupyter notebooks fix
+
+In pyreadline files
+modified py3k_compat.py by 8 string:
+return isinstance(x, collections.Callable) -> return isinstance(x, collections.abc.Callable)
+
 ## pipwin on Windows
 
 pip install pipwin
@@ -21,6 +27,14 @@ pip install djangorestframework-jsonapi['django-filter']
 pip install djangorestframework-jsonapi['django-polymorphic']
 pip install djangorestframework-jsonapi['openapi']
 
+## Two Terminals
+
+cd mysitedjango
+cd mysiteemberjs
+
+## Run both as proxies
+
+python manage.py runserver
 ember s --proxy <http://127.0.0.1:8000/>
 
 git commit -m "push message"

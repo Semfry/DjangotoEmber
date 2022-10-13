@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { visit, currentURL } from '@ember/test-helpers';
-import { setupApplicationTest } from 'shaun-site/tests/helpers';
+import { setupApplicationTest } from 'mysiteemberjs/tests/helpers';
 
 module('Acceptance | shaun site', function (hooks) {
   setupApplicationTest(hooks);

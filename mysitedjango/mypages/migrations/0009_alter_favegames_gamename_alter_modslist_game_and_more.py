@@ -6,7 +6,10 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("mypages", "0008_alter_favegames_startyear_alter_modslist_releaseyear"),
+        (
+            "mypages",
+            "0008_alter_favegames_startyear_alter_modslist_releaseyear",
+        ),
     ]
 
     operations = [
@@ -24,14 +27,20 @@ class Migration(migrations.Migration):
             model_name="modslist",
             name="game",
             field=models.CharField(
-                blank=True, default="", max_length=100, verbose_name="name of game"
+                blank=True,
+                default="",
+                max_length=100,
+                verbose_name="name of game",
             ),
         ),
         migrations.AlterField(
             model_name="modslist",
             name="modname",
             field=models.CharField(
-                blank=True, default="", max_length=100, verbose_name="name of mod"
+                blank=True,
+                default="",
+                max_length=100,
+                verbose_name="name of mod",
             ),
         ),
     ]

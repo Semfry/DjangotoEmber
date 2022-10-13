@@ -6,7 +6,10 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("mypages", "0009_alter_favegames_gamename_alter_modslist_game_and_more"),
+        (
+            "mypages",
+            "0009_alter_favegames_gamename_alter_modslist_game_and_more",
+        ),
     ]
 
     operations = [

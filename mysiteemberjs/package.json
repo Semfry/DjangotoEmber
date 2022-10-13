@@ -1,8 +1,8 @@
 {
-  "name": "shaun-site",
+  "name": "mysiteemberjs",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for shaun-site goes here",
+  "description": "Small description for mysiteemberjs goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -63,6 +63,7 @@
     "prettier": "^2.7.1",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
+    "sass": "^1.55.0",
     "tailwindcss": "^3.1.8",
     "webpack": "^5.74.0"
   },

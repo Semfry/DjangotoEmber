@@ -6,18 +6,22 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('mypages', '0007_rename_mods_modslist'),
+        ("mypages", "0007_rename_mods_modslist"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='favegames',
-            name='startyear',
-            field=models.DateField(verbose_name='release year/start of series (format DD/MM/YY)'),
+            model_name="favegames",
+            name="startyear",
+            field=models.DateField(
+                verbose_name="release year/start of series (format DD/MM/YY)"
+            ),
         ),
         migrations.AlterField(
-            model_name='modslist',
-            name='releaseyear',
-            field=models.DateField(verbose_name='release year/start of series (format DD/MM/YY)'),
+            model_name="modslist",
+            name="releaseyear",
+            field=models.DateField(
+                verbose_name="release year/start of series (format DD/MM/YY)"
+            ),
         ),
     ]

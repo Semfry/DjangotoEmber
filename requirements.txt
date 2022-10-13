@@ -20,3 +20,4 @@ contextily
 mapclassify
 black[jupyter]
 djangorestframework-jsonapi
+mpld3

@@ -1,13 +1,13 @@
 import { module, test } from 'qunit';
-import { setupTest } from 'shaun-site/tests/helpers';
+import { setupTest } from 'mysiteemberjs/tests/helpers';
 
-module('Unit | Model | favgame', function (hooks) {
+module('Unit | Model | favgames', function (hooks) {
   setupTest(hooks);
 
   // Replace this with your real tests.
   test('it exists', function (assert) {
     let store = this.owner.lookup('service:store');
-    let model = store.createRecord('favgame', {});
+    let model = store.createRecord('favgames', {});
     assert.ok(model);
   });
 });

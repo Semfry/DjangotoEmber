@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupRenderingTest } from 'shaun-site/tests/helpers';
+import { setupRenderingTest } from 'mysiteemberjs/tests/helpers';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
@@ -10,15 +10,15 @@ module('Integration | Component | favgames', function (hooks) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<Favgame />`);
+    await render(hbs`<favgames />`);
 
     assert.dom(this.element).hasText('');
 
     // Template block usage:
     await render(hbs`
-      <Favgame>
+      <favgames>
       Game Name: Start Year:
-      </Favgame>
+      </favgames>
     `);
 
     assert.dom(this.element).hasText('');

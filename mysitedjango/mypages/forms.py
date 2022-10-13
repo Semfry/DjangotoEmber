@@ -1,16 +1,16 @@
 from django import forms
 from django.forms import ModelForm, TextInput, DateInput
 from django.core.exceptions import ValidationError
-from .models import favegames, modslist
+from mypages.models import favgames, modslists
 
 
-
-class favegamesform(ModelForm):
+class favgamesform(ModelForm):
     class Meta:
-        model = favegames
+        model = favgames
         fields = ["gamename", "startyear"]
+
 
 class modslistform(ModelForm):
     class Meta:
-        model = modslist
+        model = modslists
         fields = ["modname", "releaseyear", "game", "link", "image"]

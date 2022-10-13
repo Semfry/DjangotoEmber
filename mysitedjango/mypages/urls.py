@@ -2,14 +2,13 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
-from . import views
+from mypages.views import favgamesViewSet, ModslistViewSet
 
 # Create a router and register our viewsets with it.
-router = DefaultRouter()
-router.register(r'favegames', views.FavegamesViewSet)
-router.register(r'modslist', views.ModslistViewSet)
+router = DefaultRouter(trailing_slash=False)
+router.register(r"favgames", favgamesViewSet)
+router.register(r"modslists", ModslistViewSet)
 
-# app_name = "mypages"
 urlpatterns = [
     path("", include(router.urls)),
 ]

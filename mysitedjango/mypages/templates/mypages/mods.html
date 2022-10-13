@@ -13,11 +13,11 @@ My mods
 {% block content %}
 <h1>mods I've made/worked on</h1>
 <p>-----------------------------</p>
-{% for modslist in mod_names %}
-<p>{{ modslist.modname }}, {{ modslist.releaseyear }}</p>
-<img src={{ modslist.image.url }}></img>
-<p>Game: {{ modslist.game }}</p>
-<p>Link:</p> <a href={{ modslist.link }}>{{ modslist.link }}</a>
+{% for modslists in mod_names %}
+<p>{{ modslists.modname }}, {{ modslists.releaseyear }}</p>
+<img src={{ modslists.image.url }}></img>
+<p>Game: {{ modslists.game }}</p>
+<p>Link:</p> <a href={{ modslists.link }}>{{ modslists.link }}</a>
 <p>-----------------------------</p>
 {% endfor %}
 {% endblock %}
