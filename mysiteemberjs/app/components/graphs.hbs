@@ -7,3 +7,17 @@
     <br>
     <img class="border-2 border-red-500" src="assets/images/graph3.png" alt="Total Billable and Non-Billable Hours of Users" width="1024" height="1024">
 </div>
+
+<article>
+    {{#each @model.graphs as |graph|}}
+        <div class="flex flex-col" id="favgames">
+            <br>
+            <ul class="ml-4 text-xl border border-gray-900">
+                <h3>Graph name: {{graph.graphname}}</h3>
+                {{!-- template-lint-disable no-curly-component-invocation --}}
+                <h3>{{ember-chart type='bar' data=graph.graphlink width=200 height=200}}</h3>
+            </ul>
+            <div class="pb-9"></div>
+        </div>
+    {{/each}}
+</article>

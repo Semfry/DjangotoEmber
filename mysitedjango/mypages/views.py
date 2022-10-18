@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.http.response import HttpResponse
-from mypages.models import favgames, modslists
-from mypages.forms import favgamesform, modslistform
-from mypages.serializers import favgamesSerializer, ModslistSerializer
+from mypages.models import favgames, modslists, graphs
+from mypages.forms import favgamesform, modslistform, graphsform
+from mypages.serializers import FavgamesSerializer, ModslistSerializer, GraphsSerializer
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
@@ -56,16 +56,18 @@ class JsonApiViewSet(ModelViewSet):
 
 
 class favgamesViewSet(JsonApiViewSet):
+    
     """
     This viewset automatically provides `list`, `create`, `retrieve`,
     `update` and `destroy` actions.
     """
 
     queryset = favgames.objects.all()
-    serializer_class = favgamesSerializer
+    serializer_class = FavgamesSerializer
 
 
 class ModslistViewSet(JsonApiViewSet):
+    
     """
     This viewset automatically provides `list`, `create`, `retrieve`,
     `update` and `destroy` actions.
@@ -73,3 +75,13 @@ class ModslistViewSet(JsonApiViewSet):
 
     queryset = modslists.objects.all()
     serializer_class = ModslistSerializer
+    
+class GraphsViewSet(JsonApiViewSet):
+    
+    """
+    This viewset automatically provides `list`, `create`, `retrieve`,
+    `update` and `destroy` actions.
+    """
+
+    queryset = graphs.objects.all()
+    serializer_class = GraphsSerializer

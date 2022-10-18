@@ -1,3 +1,6 @@
-import Model from '@ember-data/model';
+import Model, { attr } from '@ember-data/model';
 
-export default class GraphsModel extends Model {}
+export default class GraphsModel extends Model {
+  @attr graphname;
+  @attr graphlink;
+}

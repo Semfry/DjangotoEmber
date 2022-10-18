@@ -31,3 +31,12 @@ class modslists(models.Model):
 
     class Meta:
         ordering = ("id",)
+        
+class graphs(models.Model):
+    graphname = models.CharField(
+        "graph name", max_length=100, blank=True, default=""
+    )
+    graphlink = models.JSONField()
+    
+    class Meta:
+        ordering = ("id",)
