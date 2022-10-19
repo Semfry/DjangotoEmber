@@ -35,7 +35,7 @@ cd mysiteemberjs
 ## Run both as proxies
 
 python manage.py runserver
-ember s --proxy <http://127.0.0.1:8000/>
+ember s
 
 git commit -m "push message"
 
