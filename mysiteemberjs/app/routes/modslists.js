@@ -4,7 +4,7 @@ import { service } from '@ember/service';
 
 import RSVP from 'rsvp';
 
-export default class FavgameRoute extends Route {
+export default class ModslistRoute extends Route {
   @service store;
 
   async model() {

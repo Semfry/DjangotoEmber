@@ -4,8 +4,8 @@
         <br>
         <ul class="ml-4 text-xl">
             <Imagehandler
-            src={{modlist.imagelink}}
-            alt="A picture of {{modlist.modname}}"
+            src={{modlist.image}}
+            alt={{modlist.modname}}
             />
             <div>
                 <h3 class="text-2xl italic">Mod Name: {{modlist.modname}}</h3>
@@ -14,12 +14,10 @@
                 <br>
                 <h3>Game: {{modlist.game}}</h3>
                 <br>
-                <a class="underline hover:text-gray-500 space-y-4" href="{{modlist.link}}">Download {{modlist.modname}}</a>
+                <a class="underline hover:text-gray-500 space-y-4" href={{modlist.link}}>Download {{modlist.modname}}</a>
             </div>
         </ul>
         <div class="pb-9"></div>
     </div>
 {{/each}}
 </article>
-
-{{!-- {{bind-attr src=modlist.imagelink}} --}}

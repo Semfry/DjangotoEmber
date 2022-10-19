@@ -5,6 +5,6 @@ export default class ModlistModel extends Model {
   @attr modname;
   @attr releaseyear;
   @attr game;
-  @attr imagelink;
+  @attr image;
   @attr link;
 }
