@@ -36,7 +36,7 @@ class graphs(models.Model):
     graphname = models.CharField(
         "graph name", max_length=100, blank=True, default=""
     )
-    graphlink = models.JSONField()
+    graphlink = models.TextField()
     
     class Meta:
         ordering = ("id",)

@@ -4,3 +4,4 @@ export default class GraphsModel extends Model {
   @attr graphname;
   @attr graphlink;
 }
+
