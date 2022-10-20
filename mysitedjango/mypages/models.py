@@ -34,9 +34,9 @@ class modslists(models.Model):
         
 class graphs(models.Model):
     graphname = models.CharField(
-        "graph name", max_length=100, blank=True, default=""
+        "name of chart", max_length=100, blank=True, default=""
     )
-    graphlink = models.TextField()
+    graphlink = models.ImageField(upload_to="static/images/graphs")
     
     class Meta:
         ordering = ("id",)
