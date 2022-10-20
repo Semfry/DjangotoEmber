@@ -31,12 +31,13 @@ class modslists(models.Model):
 
     class Meta:
         ordering = ("id",)
-        
+
+
 class graphs(models.Model):
     graphname = models.CharField(
         "name of chart", max_length=100, blank=True, default=""
     )
     graphlink = models.ImageField(upload_to="static/images/graphs")
-    
+
     class Meta:
         ordering = ("id",)

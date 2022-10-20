@@ -7,6 +7,7 @@ class FavgamesSerializer(serializers.ModelSerializer):
         model = favgames
         fields = ["id", "gamename", "startyear", "url"]
 
+
 class ModslistSerializer(serializers.ModelSerializer):
     class Meta:
         model = modslists
@@ -19,6 +20,7 @@ class ModslistSerializer(serializers.ModelSerializer):
             "image",
             "url",
         ]
+
 
 class GraphsSerializer(serializers.ModelSerializer):
     class Meta:

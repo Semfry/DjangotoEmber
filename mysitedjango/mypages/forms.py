@@ -14,7 +14,8 @@ class modslistform(ModelForm):
     class Meta:
         model = modslists
         fields = ["modname", "releaseyear", "game", "link", "image"]
-        
+
+
 class graphsform(ModelForm):
     class Meta:
         model = graphs

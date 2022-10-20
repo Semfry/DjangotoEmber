@@ -14,7 +14,10 @@ class Migration(migrations.Migration):
             model_name="graphs",
             name="graphname",
             field=models.CharField(
-                blank=True, default="", max_length=100, verbose_name="name of chart"
+                blank=True,
+                default="",
+                max_length=100,
+                verbose_name="name of chart",
             ),
         ),
     ]
