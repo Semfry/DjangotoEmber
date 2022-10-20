@@ -1,0 +1,37 @@
+
+<h1 class="text-4xl ml-5 pb-7 italic">Add a game</h1>
+
+<form class="flex flex-col text-black px-2 py-2">  
+  <label for="addgame">Game name</label>
+  {{!-- template-lint-disable no-curly-component-invocation --}}
+
+  {{input 
+    id="addgame"
+    value=@form.gamename
+    name="Game name"
+    placeholder="Game name"
+    autocomplete='off'
+  }}
+
+  <label for="addstarty">startyear</label>
+  {{input
+    type="date"
+    id="addstarty"
+    value=@form.startyear
+    name="startyear"
+    placeholder="startyear"
+    autocomplete='off'
+  }}
+</form>
+
+<div class="actions">
+  <div class="flex flex-row mr-6 text-blue-500 text-3xl ml-3 font-bold">
+    {{!-- template-lint-disable no-action --}}
+    <button class="ml-5" type="button" {{action "create"}}>
+      Create
+    </button>
+    <button class="ml-5" type="button" {{action "cancel"}}>
+      Cancel
+    </button>
+  </div>
+</div>

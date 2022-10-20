@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('favgames');
   this.route('modslists');
   this.route('graphs');
+  this.route('addfavgame');
 });
