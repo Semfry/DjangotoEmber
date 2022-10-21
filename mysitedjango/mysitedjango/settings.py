@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "rest_framework_json_api",
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
 ROOT_URLCONF = "mysitedjango.urls"
@@ -162,3 +164,7 @@ REST_FRAMEWORK = {
 
 JSON_API_PLURALIZE_TYPES = True
 JSON_API_FORMAT_TYPES = 'camelize'
+
+CORS_ALLOWED_ORIGINS  = [
+    "http://localhost:4200",
+]
