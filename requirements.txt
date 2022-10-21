@@ -21,3 +21,7 @@ mapclassify
 black[jupyter]
 djangorestframework-jsonapi
 mpld3
+django-cors-headers
+django-adaptors
+django-csvimport
+messytables
