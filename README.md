@@ -6,6 +6,10 @@ python3 -m venv env
 
 source env/bin/activate
 
+sudo chown -R $USER ~/GitHub
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+
 ## Jupyter notebooks fix
 
 In pyreadline files
@@ -22,7 +26,6 @@ pipwin install fiona
 
 pip install -r requirements.txt
 
-pip install djangorestframework-jsonapi
 pip install djangorestframework-jsonapi['django-filter']
 pip install djangorestframework-jsonapi['django-polymorphic']
 pip install djangorestframework-jsonapi['openapi']
