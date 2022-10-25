@@ -6,6 +6,8 @@ python3 -m venv env
 
 source env/bin/activate
 
+## WSL settings
+
 sudo chown -R $USER ~/GitHub
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
@@ -29,6 +31,7 @@ pip install -r requirements.txt
 pip install djangorestframework-jsonapi['django-filter']
 pip install djangorestframework-jsonapi['django-polymorphic']
 pip install djangorestframework-jsonapi['openapi']
+pip install black[jupyter]
 
 ## Two Terminals
 
@@ -45,5 +48,10 @@ git commit -m "push message"
 git push
 
 black -l 80 mypages
+black -l 80 mypages
 
-black -l 80 ../pandascharts
+## Run custom Django Code
+
+python manage.py shell
+
+run "file"

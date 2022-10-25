@@ -1,7 +1,6 @@
 from django.db import models
 from django.core.exceptions import ValidationError
 
-
 # Create your models here.
 
 
@@ -42,3 +41,12 @@ class graphs(models.Model):
 
     class Meta:
         ordering = ("id",)
+
+
+class modeltimerecordscsv(models.Model):
+    date = models.DateField(blank=True, null=True)
+    user = models.CharField(max_length=200)
+    minutes = models.FloatField()
+    ticket = models.IntegerField()
+    code = models.CharField(max_length=200)
+    billable = models.CharField(max_length=200)

@@ -1,12 +1,18 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.http.response import HttpResponse
-from mypages.models import favgames, modslists, graphs
-from mypages.forms import favgamesform, modslistform, graphsform
+from mypages.models import favgames, modslists, graphs, modeltimerecordscsv
+from mypages.forms import (
+    favgamesform,
+    modslistform,
+    graphsform,
+    modeltimerecordscsvform,
+)
 from mypages.serializers import (
     FavgamesSerializer,
     ModslistSerializer,
     GraphsSerializer,
+    ModelTimerecordscsvSerializer,
 )
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
@@ -90,3 +96,14 @@ class GraphsViewSet(JsonApiViewSet):
 
     queryset = graphs.objects.all()
     serializer_class = GraphsSerializer
+
+
+class ModelTimeRecordscsvViewSet(JsonApiViewSet):
+
+    """
+    This viewset automatically provides `list`, `create`, `retrieve`,
+    `update` and `destroy` actions.
+    """
+
+    queryset = modeltimerecordscsv.objects.all()
+    serializer_class = ModelTimerecordscsvSerializer

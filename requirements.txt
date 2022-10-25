@@ -4,7 +4,6 @@ pipwin
 pillow
 black
 reportlab
-black
 requests
 beautifulsoup4
 pandas
@@ -18,10 +17,8 @@ descartes
 shapely
 contextily
 mapclassify
-black[jupyter]
 djangorestframework-jsonapi
-mpld3
+rest-pandas
 django-cors-headers
-django-adaptors
-django-csvimport
+django-pandas
 messytables
