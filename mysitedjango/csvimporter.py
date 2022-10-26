@@ -1,11 +1,11 @@
 import csv
-from mypages.models import modeltimerecordscsv
+from mypages.models import modeltimerecordscsvs
 
 with open("basepandastimerecords.csv") as f:
     reader = csv.reader(f)
     next(reader, None)  # skip the headers
     for row in reader:
-        _, created = modeltimerecordscsv.objects.get_or_create(
+        _, created = modeltimerecordscsvs.objects.get_or_create(
             date=row[0],
             user=row[1],
             minutes=row[2],

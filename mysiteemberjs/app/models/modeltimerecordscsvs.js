@@ -1,6 +1,6 @@
 import Model, { attr } from '@ember-data/model';
 
-export default class GraphsModel extends Model {
+export default class modeltimerecordscsvsModel extends Model {
   @attr date;
   @attr user;
   @attr minutes;

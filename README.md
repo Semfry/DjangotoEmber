@@ -47,8 +47,7 @@ git commit -m "push message"
 
 git push
 
-black -l 80 mypages
-black -l 80 mypages
+black -l 80 mysitedjango
 
 ## Run custom Django Code
 

@@ -4,12 +4,12 @@ import { service } from '@ember/service';
 
 import RSVP from 'rsvp';
 
-export default class ModeltimerecordscsvRoute extends Route {
+export default class modeltimerecordscsvsRoute extends Route {
 @service store;
 
   async model() {
     return RSVP.hash({
-      modeltimerecordscsv: this.store.findAll('modeltimerecordscsv'),
+      modeltimerecordscsvs: this.store.findAll('modeltimerecordscsvs'),
     });
   }
 }

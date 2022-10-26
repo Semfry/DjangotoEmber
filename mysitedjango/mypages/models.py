@@ -43,10 +43,13 @@ class graphs(models.Model):
         ordering = ("id",)
 
 
-class modeltimerecordscsv(models.Model):
+class modeltimerecordscsvs(models.Model):
     date = models.DateField(blank=True, null=True)
     user = models.CharField(max_length=200)
     minutes = models.FloatField()
     ticket = models.IntegerField()
     code = models.CharField(max_length=200)
     billable = models.CharField(max_length=200)
+
+    class Meta:
+        ordering = ("id",)

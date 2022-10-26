@@ -1,18 +1,18 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.http.response import HttpResponse
-from mypages.models import favgames, modslists, graphs, modeltimerecordscsv
+from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs
 from mypages.forms import (
     favgamesform,
     modslistform,
     graphsform,
-    modeltimerecordscsvform,
+    modeltimerecordscsvsform,
 )
 from mypages.serializers import (
     FavgamesSerializer,
     ModslistSerializer,
     GraphsSerializer,
-    ModelTimerecordscsvSerializer,
+    modeltimerecordscsvsSerializer,
 )
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
@@ -29,6 +29,12 @@ import rest_framework.renderers
 import rest_framework_json_api.parsers
 import rest_framework_json_api.metadata
 import rest_framework_json_api.renderers
+from rest_pandas import (
+    PandasView,
+    PandasUnstackedSerializer,
+    PandasSerializer,
+    PandasViewSet,
+)
 from rest_framework_json_api.utils import format_drf_errors
 from rest_framework_json_api.views import ModelViewSet
 
@@ -98,12 +104,7 @@ class GraphsViewSet(JsonApiViewSet):
     serializer_class = GraphsSerializer
 
 
-class ModelTimeRecordscsvViewSet(JsonApiViewSet):
+class modeltimerecordscsvsViewSet(JsonApiViewSet):
 
-    """
-    This viewset automatically provides `list`, `create`, `retrieve`,
-    `update` and `destroy` actions.
-    """
-
-    queryset = modeltimerecordscsv.objects.all()
-    serializer_class = ModelTimerecordscsvSerializer
+    queryset = modeltimerecordscsvs.objects.all()
+    serializer_class = modeltimerecordscsvsSerializer

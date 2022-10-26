@@ -1,5 +1,5 @@
 from rest_framework_json_api import serializers
-from mypages.models import favgames, modslists, graphs, modeltimerecordscsv
+from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs
 
 
 class FavgamesSerializer(serializers.ModelSerializer):
@@ -28,9 +28,9 @@ class GraphsSerializer(serializers.ModelSerializer):
         fields = ["id", "graphname", "graphlink", "url"]
 
 
-class ModelTimerecordscsvSerializer(serializers.ModelSerializer):
+class modeltimerecordscsvsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = modeltimerecordscsv
+        model = modeltimerecordscsvs
         fields = [
             "id",
             "date",

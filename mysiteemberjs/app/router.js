@@ -11,5 +11,5 @@ Router.map(function () {
   this.route('modslists');
   this.route('graphs');
   this.route('addfavgame');
-  this.route('modeltimerecordscsv');
+  this.route('modeltimerecordscsvs');
 });
