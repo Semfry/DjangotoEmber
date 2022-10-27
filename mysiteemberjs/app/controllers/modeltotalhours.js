@@ -1,4 +1,4 @@
-import Controller from '@ember/controller';
+const { Controller } = Ember;
 
 import Ember from 'ember';
 

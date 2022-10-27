@@ -2,6 +2,7 @@
 <br>
 <article>
 {{!-- {{#each @model.modeltotalhours as |mth|}} --}}
-{{ember-chart type='bar' data=@numberData height= 500 width=500}}
+{{!-- {{ember-chart type='bar' data=this.numberData height= 500 width=500}} --}}
+{{simple-chart height=250 width=250 name='bar' data=@donutData}}
 {{!-- {{/each}} --}}
 </article>
