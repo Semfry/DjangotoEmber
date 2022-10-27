@@ -1,7 +1,7 @@
 from django import forms
 from django.forms import ModelForm, TextInput, DateInput
 from django.core.exceptions import ValidationError
-from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs
+from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs, modeltotalhours
 
 
 class favgamesform(ModelForm):
@@ -33,3 +33,8 @@ class modeltimerecordscsvsform(ModelForm):
             "code",
             "billable",
         ]
+        
+class modeltimerecordscsvsform(ModelForm):
+    class Meta:
+        model = modeltotalhours
+        fields = ["user", "totalminutes", "totalhours"]

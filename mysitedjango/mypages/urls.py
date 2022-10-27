@@ -7,6 +7,7 @@ from mypages.views import (
     ModslistViewSet,
     GraphsViewSet,
     modeltimerecordscsvsViewSet,
+    modeltotalhoursViewSet
 )
 
 # Create a router and register our viewsets with it.
@@ -15,6 +16,7 @@ router.register(r"favgames", favgamesViewSet)
 router.register(r"modslists", ModslistViewSet)
 router.register(r"graphs", GraphsViewSet)
 router.register(r"modeltimerecordscsvs", modeltimerecordscsvsViewSet)
+router.register(r"modeltotalhours", modeltotalhoursViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),

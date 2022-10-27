@@ -45,11 +45,19 @@ class graphs(models.Model):
 
 class modeltimerecordscsvs(models.Model):
     date = models.DateField(blank=True, null=True)
-    user = models.CharField(max_length=200)
+    user = models.CharField(max_length=100)
     minutes = models.FloatField()
     ticket = models.IntegerField()
-    code = models.CharField(max_length=200)
-    billable = models.CharField(max_length=200)
+    code = models.CharField(max_length=100)
+    billable = models.CharField(max_length=100)
 
+    class Meta:
+        ordering = ("id",)
+        
+class modeltotalhours(models.Model):
+    user = models.CharField(max_length=200)
+    totalminutes = models.FloatField()
+    totalhours = models.FloatField()
+    
     class Meta:
         ordering = ("id",)

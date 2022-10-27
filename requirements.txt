@@ -21,4 +21,6 @@ djangorestframework-jsonapi
 rest-pandas
 django-cors-headers
 django-pandas
+django-import-export
 messytables
+

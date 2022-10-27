@@ -1,5 +1,5 @@
 import csv
-from mypages.models import modeltimerecordscsvs
+from mypages.models import modeltimerecordscsvs, modeltotalhours
 
 with open("basepandastimerecords.csv") as f:
     reader = csv.reader(f)
@@ -12,4 +12,14 @@ with open("basepandastimerecords.csv") as f:
             ticket=row[3],
             code=row[4],
             billable=row[5],
+        )
+
+with open("totalhours.csv") as f:
+    reader = csv.reader(f)
+    next(reader, None)  # skip the headers
+    for row in reader:
+        _, created = modeltotalhours.objects.get_or_create(
+            user=row[0],
+            totalminutes=row[1],
+            totalhours=row[2],
         )
