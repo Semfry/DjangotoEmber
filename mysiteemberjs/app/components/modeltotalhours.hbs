@@ -1,9 +1,7 @@
+{{!-- template-lint-disable no-curly-component-invocation --}}
 <br>
 <article>
 {{!-- {{#each @model.modeltotalhours as |mth|}} --}}
-<HighCharts
-  @chartOptions={{this.chartOptions}}
-  @content={{this.chartData}}
-/>
+{{ember-chart type='bar' data=@numberData height= 500 width=500}}
 {{!-- {{/each}} --}}
 </article>

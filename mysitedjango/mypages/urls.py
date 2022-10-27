@@ -7,7 +7,7 @@ from mypages.views import (
     ModslistViewSet,
     GraphsViewSet,
     modeltimerecordscsvsViewSet,
-    modeltotalhoursViewSet
+    modeltotalhoursViewSet,
 )
 
 # Create a router and register our viewsets with it.

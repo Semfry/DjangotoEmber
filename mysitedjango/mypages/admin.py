@@ -1,6 +1,12 @@
 from django.contrib import admin
 
-from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs, modeltotalhours
+from mypages.models import (
+    favgames,
+    modslists,
+    graphs,
+    modeltimerecordscsvs,
+    modeltotalhours,
+)
 
 # Register your models here.
 

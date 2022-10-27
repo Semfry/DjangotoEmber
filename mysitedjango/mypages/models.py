@@ -53,11 +53,12 @@ class modeltimerecordscsvs(models.Model):
 
     class Meta:
         ordering = ("id",)
-        
+
+
 class modeltotalhours(models.Model):
     user = models.CharField(max_length=200)
     totalminutes = models.FloatField()
     totalhours = models.FloatField()
-    
+
     class Meta:
         ordering = ("id",)

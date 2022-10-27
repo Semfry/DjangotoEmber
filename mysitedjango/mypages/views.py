@@ -1,7 +1,13 @@
 from django.shortcuts import render
 from django.contrib import messages
 from django.http.response import HttpResponse
-from mypages.models import favgames, modslists, graphs, modeltimerecordscsvs, modeltotalhours
+from mypages.models import (
+    favgames,
+    modslists,
+    graphs,
+    modeltimerecordscsvs,
+    modeltotalhours,
+)
 from mypages.forms import (
     favgamesform,
     modslistform,
@@ -13,7 +19,7 @@ from mypages.serializers import (
     ModslistSerializer,
     GraphsSerializer,
     modeltimerecordscsvsSerializer,
-    modeltotalhoursSerializer
+    modeltotalhoursSerializer,
 )
 from rest_framework.decorators import api_view, action
 from rest_framework.response import Response
@@ -103,7 +109,8 @@ class modeltimerecordscsvsViewSet(JsonApiViewSet):
 
     queryset = modeltimerecordscsvs.objects.all()
     serializer_class = modeltimerecordscsvsSerializer
-    
+
+
 class modeltotalhoursViewSet(JsonApiViewSet):
 
     queryset = modeltotalhours.objects.all()
