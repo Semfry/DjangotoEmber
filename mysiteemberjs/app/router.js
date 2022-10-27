@@ -12,4 +12,5 @@ Router.map(function () {
   this.route('graphs');
   this.route('addfavgame');
   this.route('modeltimerecordscsvs');
+  this.route('modeltotalhours');
 });
