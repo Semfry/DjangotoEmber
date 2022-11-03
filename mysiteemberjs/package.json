@@ -23,13 +23,14 @@
     "test:ember": "ember test"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.8.1",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "autoprefixer": "^10.4.12",
     "broccoli-asset-rev": "^3.0.0",
-    "chart.js": "2.9.4",
     "ember-auto-import": "^2.4.3",
     "ember-cli": "~4.7.0",
     "ember-cli-app-version": "^5.0.0",
@@ -74,5 +75,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1"
   }
 }

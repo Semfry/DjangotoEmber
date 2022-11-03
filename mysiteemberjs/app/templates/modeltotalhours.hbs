@@ -1,3 +1,36 @@
 <h1 class="text-4xl ml-5 pb-7 italic">Graphs</h1>
 
-<Modeltotalhours @model={{@model}} />
+<br>
+<article>
+<canvas id="myChart" width="400" height="400"></canvas>
+{{!-- template-lint-disable no-forbidden-elements --}}
+<script>
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Red'],
+        datasets: [{
+            label: '# of Votes',
+            data: [{{@totalhours}}],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+</article>
+
+{{!-- <Modeltotalhours @model={{@model}} /> --}}

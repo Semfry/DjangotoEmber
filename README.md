@@ -4,7 +4,9 @@
 
 python3 -m venv env
 
-source env/bin/activate
+source env/bin/activate.fish
+
+add .fish to activate if using fish
 
 ## WSL settings
 

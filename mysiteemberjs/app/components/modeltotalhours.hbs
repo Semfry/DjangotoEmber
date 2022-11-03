@@ -1,8 +1,32 @@
-
+{{!-- template-lint-disable no-forbidden-elements --}}
 <br>
 <article>
-{{!-- {{#each @model.modeltotalhours as |mth|}} --}}
-{{!-- template-lint-disable no-curly-component-invocation --}}
-{{ember-chart type='bar' data=this.numberData height=500 width=500}}
-{{!-- {{/each}} --}}
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Red'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
 </article>
