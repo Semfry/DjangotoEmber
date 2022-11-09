@@ -7,10 +7,10 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  this.route('favgames');
+  this.route('favgames')
+    this.route('addfavgame');
   this.route('modslists');
   this.route('graphs');
-  this.route('addfavgame');
   this.route('modeltimerecordscsvs');
   this.route('modeltotalhours');
 });

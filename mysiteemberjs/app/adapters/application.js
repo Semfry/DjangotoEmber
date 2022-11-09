@@ -1,9 +1,5 @@
-import DS from 'ember-data';
+import RESTAdapter from '@ember-data/adapter/rest';
 
-import { computed } from '@ember/object';
-
-export default DS.RESTAdapter.extend({
-  host: computed(function(){
-    return 'http://localhost:8000';
-  })
-});
+export default class ApplicationAdapter extends RESTAdapter {
+  host = 'http://localhost:8000';
+  }

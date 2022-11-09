@@ -5,11 +5,9 @@ import { service } from '@ember/service';
 import RSVP from 'rsvp';
 
 export default class GraphsRoute extends Route {
-@service store;
+  @service store;
 
-  async model() {
-    return RSVP.hash({
-      graphs: this.store.findAll('graphs'),
-    });
+  model() {
+    return this.store.findAll("graphs");
   }
 }
