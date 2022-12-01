@@ -1,0 +1,21 @@
+<form class="flex flex-col text-black px-2 py-2" {{on "submit" this.createFavg}}>  
+  <label for="addgame">Game Name</label>
+
+    <Input
+        id="addgame"
+        @value={{this.gdata}}
+    />
+<label for="addstarty">Start Year</label>
+    <Input
+        id="addstarty"
+        @value={{this.ydata}}
+        @type="date"
+    />
+
+<div class="flex flex-row mr-6 text-blue-500 text-3xl ml-3 font-bold">
+  <button class="ml-5" type="submit">
+      Create New Game
+  </button>
+</div>
+</form>
+
