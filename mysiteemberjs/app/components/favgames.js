@@ -4,7 +4,6 @@ import { action } from '@ember/object';
 
 export default class FavgamesComponent extends Component {
 
-
     @action
     addFavg(ngamename, nstartyear) {
       this.model = [...this.model, {

@@ -1,7 +1,5 @@
 <br>
 <article>
-<C3Chart 
-      @data={{this.data}} 
-      @title={{this.title}} 
-    />
+{{!-- template-lint-disable no-curly-component-invocation --}}
+{{ember-chart type='bar' data=this.data}}
 </article>
